@@ -1,0 +1,72 @@
+.portfolio-item {
+  position: relative;
+  overflow: hidden;
+  img {
+    transition: $transition-base;
+    transform: scale(1.03);
+    min-height: 300px;
+    object-fit: cover;
+  }
+  .portfolio-overlay {
+    background-color: rgba($dark, 0.6);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 1;
+    opacity: 0;
+    visibility: hidden;
+    transform: skew(2deg, 2deg);
+    transition: $transition-base;
+    .portfolio-icon {
+      width: 40px;
+      height: 40px;
+      border-radius: 100%;
+      color: $white;
+      display: block;
+      text-align: center;
+      padding: 8px 0;
+      position: absolute;
+      right: 20px;
+      top: 20px;
+    }
+    .portfolio-info {
+      position: absolute;
+      bottom: 30px;
+      padding: 0 20px;
+    }
+  }
+  &:hover {
+    img {
+      transform: scale(1.01);
+    }
+    .portfolio-overlay {
+      opacity: 1;
+      visibility: visible;
+      transform: skew(0deg, 0deg);
+    }
+  }
+}
+.job-item {
+  display: inline-block;
+  width: 100%;
+
+  transition: $transition-base;
+  .job-logo {
+    width: 50px;
+    height: 50px;
+    float: left;
+  }
+  .job-content {
+  }
+}
+.filter-navbar {
+  li {
+    a {
+      margin: 4px 0;
+    }
+  }
+}

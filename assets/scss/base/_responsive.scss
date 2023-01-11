@@ -1,0 +1,121 @@
+/* ============================================== 
+  Media Query : 1200px
+============================================== */
+@media only screen and (max-width:1199px) {
+    .sidebar-toggler {
+        display: block;
+    }
+
+
+
+    .main-content {
+        padding-left: 0;
+    }
+
+    .main-content {
+        .container {
+            padding: 0 15px;
+        }
+    }
+  .main-sidebar{
+      left: -100%;
+  }
+  .main-area.collapsed{
+    .main-sidebar{
+        left: 0;
+    }
+    .main-content{
+        padding-left:300px;
+    }
+  }
+    .company-arrows {
+        display: none;
+    }
+}
+
+
+
+
+/* ============================================== 
+  Media Query : 991px
+============================================== */
+@media only screen and (max-width: 991px) {
+.main-area.collapsed{
+   
+    .main-content{
+        padding-left:0;
+    }
+  }
+  .header-navbar .navbar-nav li a {
+      padding-left:0
+  }
+}
+
+
+/* ============================================== 
+  Media Query : 767px
+============================================== */
+@media only screen and (max-width: 767px) {
+
+    .author-bottom {
+        display: block !important;
+
+        .social-share-link {
+            margin-top: 20px !important;
+        }
+    }
+
+    .search-form {
+        margin-top: 10px;
+    }
+}
+
+
+
+
+/* ============================================== 
+  Media Query : 575px
+============================================== */
+@media only screen and (max-width: 575px) {
+    .blog-item {
+        .blog-content {
+            width: 100%;
+        }
+    }
+
+    .service-item {
+        .service-icon {
+            float: none;
+            margin-bottom: 20px;
+        }
+
+        .service-content {
+            width: 100%;
+        }
+    }
+
+    .comment-box {
+        .comment-avata {
+            float: none;
+            margin-bottom: 20px;
+        }
+
+        .comment-body {
+            padding: 0;
+            width: 100%;
+        }
+
+    }
+
+    .author-bio {
+        .author-avata {
+            float: none;
+            margin-bottom: 20px;
+        }
+
+        .author-content {
+            width: 100%;
+            padding: 0;
+        }
+    }
+}

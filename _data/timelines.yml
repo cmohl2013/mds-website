@@ -1,0 +1,38 @@
+# Academic qualification
+- title: BSC in Computer Science
+  description: there are manu variations of pasages ofo lorem ipsum avabile, but the majorirty have alteraton
+  institute: ABC University
+  year: 2011
+  type: Education
+
+- title: High School Education
+  description: there are manu variations of pasages ofo lorem ipsum avabile, but the majorirty have alteraton
+  institute: Roal High School
+  year: 2005
+  type: Education
+
+- title: Primary School Education
+  description: there are manu variations of pasages ofo lorem ipsum avabile, but the majorirty have alteraton
+  institute: Rio Govt. Primary School
+  year: 2000
+  type: Education
+
+# Work experience
+- title: Sr. Software Engineer
+  description: there are manu variations of pasages ofo lorem ipsum avabile, but the majorirty have alteraton
+  institute: Themeix Lab
+  year: 2019
+  type: Experience
+
+- title: Jr. Software Engineer
+  description: there are manu variations of pasages ofo lorem ipsum avabile, but the majorirty have alteraton
+  institute: Themeix Lab
+  year: 2018
+  type: Experience
+
+- title: Internship
+  description: there are manu variations of pasages ofo lorem ipsum avabile, but the majorirty have alteraton
+  institute: Themeix Lab
+  year: 2017
+  type: Experience
+

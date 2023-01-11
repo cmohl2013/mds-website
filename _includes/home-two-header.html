@@ -1,0 +1,35 @@
+<!--  ============= Header Area ============  -->
+<header class="header-area bg-white px-md-5">
+    <nav class="header-navbar navbar navbar-expand-lg">
+      <div class="container">
+        <a class="navbar-brand" href="{{'/' }}"><img src="assets/images/brand-logo2.png" alt="title"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar"
+          aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbar">
+          <ul class="navbar-nav pt-3 pt-lg-0">
+            {% for link in site.data.navigation %}
+            <li {% if link.submenu %}class="dropdown" {% endif %}>
+                <a  {% if link.submenu %}class="dropdown-toggle" {% endif %}href="{{ link.url|prepend:site.baseurl }}">
+                    {{ link.text }}</a>
+                {% if link.submenu %}
+                <ul class="dropdown-menu">
+                    {% for sublink in link.submenu %}
+                    <li><a href="{{ sublink.url|prepend:site.baseurl }}">
+                        {{ sublink.text }}</a></li>
+                    {% endfor %}
+
+                </ul>
+                {% endif %}
+            </li>
+            {% endfor %}
+
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  

@@ -1,0 +1,16 @@
+- name: Company name
+  logo: assets/images/clients/company-logo.png
+  website_url: https://yoursite.com
+  
+- name: Company name
+  logo: assets/images/clients/company-logo2.png
+  website_url: https://yoursite.com
+
+- name: Company name
+  logo: assets/images/clients/company-logo3.png
+  website_url: https://yoursite.com
+
+- name: Company name
+  logo: assets/images/clients/company-logo4.png
+  website_url: https://yoursite.com
+

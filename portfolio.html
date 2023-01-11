@@ -1,0 +1,80 @@
+---
+layout: default
+title: Portfolios
+permalink: /all-portfolio
+---
+<main class="main-area">
+  {% include sidebar-nav.html %}
+  <div class="main-content">
+    {% include breadcrumb.html %}
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 pt-5 pt-md-8">
+          <h1 class="page-title-heading">{{page.title}}</h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12 pt-4 pb-5 pb-md-8">
+          <div class="page-wrapper">
+            <!--  ============= Gallery Area ============  -->
+            <div class="gallery-area mb-5 mb-md-8 ">
+              <ul class="filter-navbar mb-4 list-inline text-center">
+                <li class="list-inline-item active"><a href="#" class="btn btn-outline-success" data-filter="*">All</a>
+                </li>
+                <li class="list-inline-item"><a href="#" class="btn btn-outline-success" data-filter=".popular">
+                    Popular</a></li>
+                <li class="list-inline-item"><a href="#" class="btn btn-outline-success" data-filter=".top">Top
+                    Listed</a></li>
+                <li class="list-inline-item"><a href="#" class="btn btn-outline-success"
+                    data-filter=".business">Business</a></li>
+                <li class="list-inline-item"><a href="#" class="btn btn-outline-success"
+                    data-filter=".photograpy">Photograpy</a></li>
+
+              </ul>
+              <div class="row filter-container">
+                {% for project in site.portfolios %}
+                  <div class="col-lg-6 col-xl-4 {{project.filter_class}}">
+                    <div class="portfolio-item mt-3">
+                      {% if project.img_src %}
+                      <img class="w-100" src="{{project.img_src | relative_url}}" alt="{{project.title}}">
+                      {% endif %}
+                      <div class="portfolio-overlay">
+                        <a href="{{project.url | relative_url}}" class="portfolio-icon bg-success"><i class="fas fa-eye"></i></a>
+                        <div class="portfolio-info">
+                          <h4 class="mb-3"><a class="text-white" href="{{project.url}}">{{project.title}}</a></h4>
+                          <p class="badge bg-success">{{project.project_name}}</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                {% endfor %}
+              </div>
+            </div>
+
+            <div class="contact-area mt-5 mt-md-8">
+              <div class="container">
+                <div class="row">
+                  <div class="col-lg-10 m-auto">
+
+                    <div class="mb-5 text-center">
+                      <h2>Get Estimate For Your Project</h2>
+                      <p>For each project we establish relationships with partners.</p>
+                    </div>
+                    {% include contact-form.html %}
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!--  ============= Contact Area ============  -->
+    {% include footer.html %}
+  </div>
+</main>
+<!--  ====================== Main Area End =============================  -->

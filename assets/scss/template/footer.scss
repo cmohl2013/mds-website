@@ -1,0 +1,25 @@
+.footer-widget{
+	.footer-logo{
+		display: inline-block;
+		img{
+			height: 35px;
+		}
+	}
+	.footer-list{
+		li{
+			margin: 8px 0;
+			padding-left:25px;
+			position: relative;
+			 &:before{
+		     content: "\f35a";
+		     font-family: "Font Awesome 5 Free";
+		    font-weight: 900;
+		    position: absolute;
+		    top: 2px;
+		    left: 0;
+		    color: $info;
+		   }
+		}
+	}
+}
+

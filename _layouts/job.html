@@ -1,0 +1,33 @@
+---
+layout: default
+---
+
+{% include home-one-header.html %}
+<main class="main-area">
+  {% include sidebar-nav.html %}
+  <div class="main-content">
+    {% include breadcrumb.html %}
+
+    <!--  ============= Portfolio Area ============  -->
+    <div class="portfolio-area my-5 my-md-8">
+      <div class="container">
+        <div class="job-item mb-4">
+          <div class="job-content">
+            <h2>{{page.title}}</h2>
+            <p class="small m-0"><span class="me-3"><i class="fas fa-briefcase me-2"></i>{{page.time}}</span>
+              <span class="me-3"><i class="fas fa-compass me-2"></i>{{page.location}}</span>
+              <span><i class="fas fa-calendar me-2"></i>{{page.deadline}}</span>
+            </p>
+          </div>
+
+        </div>
+        {{content}}
+        <a href="{{page.apply_link}}" class="btn btn-success">Apply Now</a>
+      </div>
+    </div>
+
+    {% include footer.html %}
+
+  </div>
+</main>
+<!--  ====================== Main Area End =============================  -->

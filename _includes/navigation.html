@@ -1,0 +1,54 @@
+{% if page.home < 4 %}
+<ul id="sidebar-menu">
+    {% for link in site.data.navigation %}
+    <li {% if link.submenu %}class="dropdown" {% endif %}>
+        <a {% if link.submenu %}class="dropdown-toggle" {% endif %}href="{{ link.url|prepend:site.baseurl }}"><i
+                class="fas {{link.icon}}"></i> {{
+            link.text }}</a>
+        {% if link.submenu %}
+        <ul class="dropdown-menu">
+            {% for sublink in link.submenu %}
+            <li><a href="{{ sublink.url|prepend:site.baseurl }}"><i class="fas fa-long-arrow-alt-left"></i> {{
+                    sublink.text }}</a></li>
+            {% endfor %}
+
+        </ul>
+        {% endif %}
+    </li>
+    {% endfor %}
+</ul>
+{% endif %}
+{% if page.home == 4 %}
+<ul id="sidebar-menu">
+    <li>
+        <a href="#home"><i class="fas fa-home"></i> Home</a>
+
+    </li>
+    <li><a href="#services"><i class="fas fa-database"></i> Services</a></li>
+
+    <li>
+        <a href="#portfolio"><i class="fas fa-th"></i>Portfolio</a>
+
+    </li>
+    <li><a href="#clients"><i class="fas fa-user-cog"></i> Clients</a></li>
+    <li>
+        <a href="#blog"><i class="fas fa-blog"></i>Blog</a>
+    </li>
+
+    <li><a href="#testimonial"><i class="fas fa-quote-left"></i> Testimonial</a></li>
+    <li><a href="#contact"><i class="fas fa-envelope"></i> Contact</a></li>
+
+</ul>
+{% endif %}
+
+{% if page.home == 5 %}
+<ul id="sidebar-menu">
+{% for link in site.data.navigation_onepage %}
+    <li>
+        <a href="{{link.url}}"><i class="fas {{link.icon}}"></i> {{link.text}}</a>
+
+    </li>
+
+{% endfor %}
+</ul>
+{% endif %}

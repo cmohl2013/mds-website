@@ -1,0 +1,49 @@
+.company-item{
+   box-shadow: $box-shadow;
+   background-color:$white;
+   padding: 20px;
+   img{
+   	width: 90px;
+   	height: 90px;
+   	object-fit: contain; 
+   	margin-bottom: 10px;
+   }
+}
+.slick-slide {
+    margin: 0 15px;
+  }
+  .slick-list {
+    margin: 0 -15px;
+}
+.slider-arrows {
+    opacity: 0;
+    visibility: hidden;
+    .slider-prev,.slider-next{
+    width: 33px;
+    height: 30px;
+    background-color: $info;
+    box-shadow: $box-shadow;
+    text-align:center;
+    padding: 4px 0;
+    left: -55px;
+    border: 0;
+    transition: $transition-base;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    }
+    .slider-next { 
+      left: auto;
+      right: -55px;
+    }
+  
+
+}
+[class*=area]:not(.main-area){  
+	  &:hover{
+    	.slider-arrows{
+    		opacity: 1;
+    		visibility: visible;
+    	}
+    }
+}

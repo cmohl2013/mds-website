@@ -1,0 +1,20 @@
+<ul class="social-share-link m-0 list-inline">
+    <li class="list-inline-item"><a class="facebook"
+            href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ site.baseurl }}{{ post.url }}"
+            onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
+            data-toggle="tooltip" data-placement="top" title="Share in Facebook"><i class="fab fa-facebook-f"></i></a>
+    </li>
+
+    <li class="list-inline-item"><a class="twitter"
+            href="https://twitter.com/intent/tweet?text={{ post.title }}&url={{ site.url }}{{ site.baseurl }}{{ post.url }}"
+            onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
+            data-toggle="tooltip" data-placement="top" title="Share on Twitter"><i class="fab fa-twitter"></i></a>
+    </li>
+
+    <li class="list-inline-item">
+        <a class="instagram" href="http://www.tumblr.com/share/link?url={{ site.url }}{{ site.baseurl }}{{ post.url }}"
+            onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=900,height=500,toolbar=1,resizable=0'); return false;"
+            data-toggle="tooltip" data-placement="top" title="Share on Tumblr"><i class="fab fa-tumblr"></i>
+        </a>
+    </li>
+</ul>

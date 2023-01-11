@@ -1,0 +1,19 @@
+<!--  ============= Banner Area ============  -->
+<div id="home" class="banner-area py-5 py-lg-8 mvh-100 d-flex align-items-center">
+    <div class="container">
+        <div class="row d-flex align-items-center">
+            <div class="col-md-8">
+                <div class="banner-content mb-md-0 mb-4 text-center text-md-start">
+                    <p class="fw-bold text-success">{{site.data.hero.profession}}</p>
+                    <h1 class="display-4 my-3">{{site.data.hero.name}}</h1>
+                    <p class="mb-0">{{site.data.hero.description}}</p>
+                    <a href={{site.data.hero.download_link_cv}} class="btn btn-success mt-4">Download CV<i class="fas fa-download ms-2"></i></a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div  data-aos="zoom-in-up"  data-aos-delay="1500ms"  class="banner-image text-center"><img src="{{site.data.hero.banner_image_source | relative_url}}" alt="image">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

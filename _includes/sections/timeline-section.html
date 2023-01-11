@@ -1,0 +1,28 @@
+<!--  ============= Timeline Area ============  -->
+<div id="timeline" class="timeline-area my-5 my-md-8">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="timeline-item my-3">
+                    <h2 class="mb-4">My <span class="text-success">Education</span></h2>
+                    {% for timeline in site.data.timelines %}
+                     {% if  timeline.type == 'Education' %}
+                        {% include timeline.html %}
+                    {% endif %}
+                    {% endfor %}
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="timeline-item my-3">
+                    <h2 class="mb-4">Work <span class="text-success">Experience</span></h2>
+
+                    {% for timeline in site.data.timelines %}
+                    {% if  timeline.type == 'Experience' %}
+                        {% include timeline.html %}
+                        {% endif %}
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

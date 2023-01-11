@@ -1,0 +1,30 @@
+<!--====== Header Area Start ======-->
+<header class="header-area">
+    <nav class="header-navbar navbar navbar-expand-lg fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="{{site.url}}"><img src="{{'/assets/images/logo/logo-light.png' | relative_url}}" height="15" alt="{{site.title}}"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarself">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarself">
+          {% include navigation.html %}
+          <ul class="list-inline m-0 header-social-list">
+  
+            {% if site.facebook %}
+            <li class="list-inline-item"><a href="{{site.facebook | relative_url}}"><i class="fab fa-facebook-f"></i></a></li>
+            {% endif %}
+            {% if site.twitter %}
+            <li class="list-inline-item"><a href="{{site.twitter | relative_url}}"><i class="fab fa-twitter"></i></a></li>
+            {% endif %}
+            {% if site.instagram %}
+            <li class="list-inline-item"><a href="{{site.instagram | relative_url }}"><i class="fab fa-instagram"></i></a></li>
+            {% endif %}
+          </ul>
+        </div>
+    
+      </div>
+    </nav>
+  </header>
+  <!--====== Header Area End ======-->

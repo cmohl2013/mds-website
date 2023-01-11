@@ -1,0 +1,58 @@
+- text: Home
+  icon: fa-home
+  url: /#
+  submenu:
+    - text: Home 01 [Personal]
+      url: /
+    - text: Home 02 [Slider]
+      url: /home-02
+    - text: Home 03 [Corporate]
+      url: /home-03
+    - text: Home 04 [One Page]
+      url: /home-04
+- text: About
+  icon: fa-book
+  url: /about
+- text: Services  
+  icon: fa-cogs
+  url: /#
+  submenu:
+    - text: Web Development
+      url: /service/web-development
+    - text: UI/UX Design
+      url: /service/ui-ux-design
+    - text: Digital Marketing
+      url: /service/digital-marketing
+    - text: SEO
+      url: /service/seo
+- text: Pages
+  icon: fa-sticky-note
+  url: /#
+  submenu:
+    - text: Team
+      url: /team
+    - text: Services 
+      url: /all-services
+    - text: Testimonial
+      url: /testimonials
+    - text: Job Details
+      url: /job/junior-wordpress-developer/
+    - text: Blog Details
+      url: /jekyll/highlight/2019/01/17/syntax-highlight-with-jekyll
+    - text: Error
+      url: /4O4
+- text: Portfolio
+  icon: fa-th
+  url: /all-portfolio
+- text: Blog
+  icon: fa-blog
+  url: /blog
+- text: Jobs
+  icon: fa-database
+  url: /all-jobs
+- text: Gallery
+  icon: fa-images
+  url: /gallery
+- text: Contact
+  icon: fa-envelope-open-text
+  url: /contact

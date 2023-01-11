@@ -1,0 +1,79 @@
+---
+layout: default
+permalink: /contact
+---
+
+{% include home-one-header.html %}
+<main class="main-area">
+	{% include sidebar-nav.html %}
+	<div class="main-content">
+		{% include breadcrumb.html %}
+
+		<div class="container">
+
+			<div class="row">
+				<div class="col-md-12 pt-4 pb-5 pb-md-8">
+					<div class="page-wrapper">
+						<div class="contact-area my-5 my-md-8">
+							<div class="row">
+								<div class="col-md-6 col-lg-4">
+									<div class="contact-info-item text-center mt-3">
+										<div class="contact-icon mb-3">
+											<img src="{{'/assets/images/contact-icon3.png' | relative_url }}" alt="title">
+										</div>
+										<div class="contact-content">
+											<h5>Our Address</h5>
+											<p class="m-0">123 Down Street, Demo Road, Demo, <br>United States</p>
+
+										</div>
+									</div>
+								</div>
+								<div class="col-md-6 col-lg-4">
+									<div class="contact-info-item text-center mt-3">
+										<div class="contact-icon mb-3">
+											<img src="{{'/assets/images/contact-icon2.png' | relative_url}}" alt="title">
+										</div>
+										<div class="contact-content">
+											<h5>Our Phone</h5>
+											<p class="m-0">+(123) 456 789</p>
+											<p class="m-0">+(123) 456 789</p>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-6 col-lg-4">
+									<div class="contact-info-item text-center mt-3">
+										<div class="contact-icon mb-3">
+											<img src="{{'/assets/images/contact-icon.png' | relative_url}}" alt="title">
+										</div>
+										<div class="contact-content">
+											<h5>Our Email</h5>
+											<p class="m-0">support@themeix.com</p>
+											<p class="m-0">themeix@gmail.com</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="contact-form-area mt-5 mt-md-8">
+							<div class="row">
+								<div class="col-lg-8 mx-auto">
+									<div class="mb-5 text-center">
+										<h2>Send Us Message</h2>
+										<p>For each project we establish relationships with partners.</p>
+									</div>
+									{% include contact-form.html %}
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!--  ============= Contact Area ============  -->
+
+		{% include footer.html %}
+
+	</div>
+</main>
+<!--  ====================== Main Area End =============================  -->

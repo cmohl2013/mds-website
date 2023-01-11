@@ -1,0 +1,49 @@
+---
+layout: default
+---
+
+{% assign author = site.authors | where: 'author_id', page.author_id | first %}
+{% include home-one-header.html %}
+<main class="main-area">
+    {% include sidebar-nav.html %}
+    <div class="main-content">
+        {% include breadcrumb.html %}
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 pt-5 pt-md-8">
+                    <h2 class="page-title-heading">{{page.title}}</h2>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12 pt-4 pb-5 pb-md-8">
+                    <div class="page-wrapper">
+                   
+                        <div class="entry-content typofix">{{content}}</div>
+
+                  
+
+                       
+                        <div class="author-bio bg-light p-4 my-3">
+                            {% if author.image %}
+                            <div class="author-avata"><img src="{{author.image | relative_url}}" alt="{{author.name}}"></div>
+                            {% endif %}
+                            <div class="author-content">
+                                <h6>{{author.name}}</h6>
+                                {% if author.bio %}
+                                <p class="m-0">{{author.bio}}</p>
+                                {% endif %}
+                            </div>
+                        </div>
+                        {% if page.comments != false %}
+                            <div class="contact-form">
+                            {% include comments.html %}
+                            </div>
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
+        </div>
+        {% include footer.html %}
+    </div>
+</main>

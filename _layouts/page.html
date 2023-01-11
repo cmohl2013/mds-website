@@ -1,0 +1,32 @@
+---
+layout: default
+---
+
+{% include home-one-header.html %}
+<main class="main-area">
+    {% include sidebar-nav.html %}
+    <div class="main-content">
+        {% include breadcrumb.html %}
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 pt-5 pt-md-8">
+                    <h2 class="page-title-heading">{{page.title}}</h2>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12 pt-4 pb-5 pb-md-8">
+                    <div class="page-wrapper">
+
+                        <div class="featured-image mb-3">
+                            <img class="img-fluid mx-auto pb-4" src="{{page.img_src | relative_url}}" alt="{{page.title}}">
+                        </div>
+
+                        <div class="entry-content typofix">{{content}}</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        {% include footer.html %}
+    </div>
+</main>

@@ -1,0 +1,20 @@
+<div class="team-item mt-3">
+    <div class="team-image">
+        {% if member.img_src %}
+            <img src="{{member.img_src | relative_url}}" alt="{{member.name}}">
+        {% endif %}
+        <ul class="social-share-link list-inline">
+            <li class="list-inline-item"><a href="{{member.twitter | relative_url}}"><i class="fab fa-twitter"></i></a>
+            </li>
+            <li class="list-inline-item"><a href="{{member.instagram | relative_url}}"><i
+                        class="fab fa-instagram"></i></a></li>
+            <li class="list-inline-item"><a href="{{member.facebook | relative_url}}"><i
+                        class="fab fa-facebook-f"></i></a></li>
+        </ul>
+    </div>
+    <div class="team-content bg-light">
+        <h5>{{member.name}}</h5>
+        <span class="small">{{member.designation}}</span>
+
+    </div>
+</div>

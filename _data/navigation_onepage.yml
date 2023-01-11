@@ -1,0 +1,16 @@
+- text: Home
+  icon: fa-home
+  url: "#home"
+
+- text: Services
+  icon: fa-database
+  url: "#services" 
+
+- text: Portfolio
+  icon: fa-th
+  url: "#portfolio"
+
+- text: Clients
+  icon: fa-user-cog
+  url: "#clients"
+

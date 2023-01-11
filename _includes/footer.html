@@ -1,0 +1,73 @@
+<!--  ============= Footer Area ============  -->
+<footer class="footer-area bg-light">
+  <div class="footer-top py-4 py-md-6">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 col-lg-3">
+          <div class="footer-widget my-3">
+            <a href="{{'/' | relative_url }}" class="footer-logo mb-4"><img
+                src="{{'/assets/images/brand-logo2.png' | relative_url}}" alt="{{site.title}}"></a>
+            <p class="m-0">123 Down Street, Demo Road, Demo, USA</p>
+            <p class="m-0">+123 456 7890</p>
+            <p class="m-0">support@themeix.com</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="footer-widget my-3">
+            <h5 class="mb-4">About</h5>
+            <ul class="footer-list list-inline">
+              <li><a href="{{'/' | relative_url }}">Home</a></li>
+              <li><a href="{{'/all-services/' | relative_url }}">Services</a></li>
+              <li><a href="{{'/blog' | relative_url }}">Blog</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="footer-widget my-3">
+            <h5 class="mb-4">Service</h5>
+            <ul class="footer-list list-inline">
+              <li><a href="{{'/' | relative_url }}">Home</a></li>
+              <li><a href="{{'/all-services' | relative_url }}">Services</a></li>
+              <li><a href="{{'/all-portfolio' | relative_url }}">Portfolio</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="footer-widget my-3">
+            <h5 class="mb-4">Support</h5>
+            <ul class="footer-list list-inline">
+              <li><a href="{{'/testimonial' | relative_url}}">Our Clients</a></li>
+              <li><a href="{{'/contact' | relative_url}}">Contact</a></li>
+              <li><a href="{{'/blog' | relative_url}}">Blog</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom border-top py-2">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <p class="copyright-text my-2">©<script>
+              document.write(new Date().getFullYear())
+            </script> Cvfolio. Design with <i class="far fa-heart text-danger"></i> by
+            <a class="text-success" href="https://themeix.com">themeix</a>.</p>
+        </div>
+        <div class="col-md-6">
+          <ul class="social-share-link my-2 list-inline text-md-end">
+            {% if site.facebook %}
+            <li class="list-inline-item"><a href="{{site.facebook | relative_url}}"><i class="fab fa-facebook-f"></i></a></li>
+            {% endif %}
+            {% if site.twitter %}
+            <li class="list-inline-item"><a href="{{site.twitter | relative_url}}"><i class="fab fa-twitter"></i></a></li>
+            {% endif %}
+            {% if site.instagram %}
+            <li class="list-inline-item"><a href="{{site.instagram | relative_url }}"><i class="fab fa-instagram"></i></a></li>
+            {% endif %}
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>

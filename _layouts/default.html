@@ -1,0 +1,43 @@
+<!DOCTYPE HTML>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+<head>
+    <!-- meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    {% seo %}
+
+    <!--  Add Favicon -->
+    <link rel="icon" href="{{'/assets/images/favicon.ico' | relative_url}}" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <!-- gulp:css -->
+    <link rel="stylesheet" href="{{'/assets/css/app.min.css' | relative_url}}">
+    <!-- endgulp -->
+    
+    {% feed_meta %}
+
+</head>
+
+<body>
+    <!--  ====================== Main Area Start =============================  -->
+	<div class="preloader">
+		<div class="loadingio-spinner-eclipse">
+			<div class="ldio-span">
+				<div></div>
+			</div>
+		</div>
+	</div>
+    
+    {{content}}
+
+    <!--=========== JS Add ==========-->
+    <!-- gulp:js -->
+    <script src="{{'/assets/js/build.min.js' | relative_url}}"></script>
+    <!-- endgulp -->
+
+</body>
+
+</html>
