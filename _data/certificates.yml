@@ -1,0 +1,16 @@
+- name: "Azure Data Scientist Associate"
+  logo: assets/images/dp-100.png
+  website_url: https://www.credly.com/badges/3a17db83-d4c1-494b-9ba7-0401b5f3a5fa/public_url
+  
+- name: "Azure Fundamentals"
+  logo: assets/images/az-900.png
+  website_url: https://www.credly.com/badges/f25a53fb-ee2e-4d9a-8237-d6dfb172f375/public_url
+
+- name: "Azure Data Fundamentals"
+  logo: assets/images/dp-900.png
+  website_url: https://www.credly.com/badges/4e918531-b8ae-414d-98f3-60f39e18f787/public_url
+
+- name: "Azure AI Fundamentals"
+  logo: assets/images/ai-900.png
+  website_url: https://www.credly.com/badges/402014eb-2742-4fc0-a218-4a232a0fcc03/public_url
+

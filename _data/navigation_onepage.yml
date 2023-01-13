@@ -6,11 +6,27 @@
   icon: fa-database
   url: "#services" 
 
-- text: Portfolio
-  icon: fa-th
-  url: "#portfolio"
+- text: CV
+  icon: fas fa-graduation-cap
+  url: "#experience"
 
-- text: Clients
-  icon: fa-user-cog
-  url: "#clients"
+- text: Tools
+  icon: fas fa-tools
+  url: "#skills"
+
+- text: Certificates
+  icon: fas fa-certificate
+  url: "#certificates"  
+
+- text: Projects
+  icon: fa-th
+  url: "#projects"
+
+- text: Contact
+  icon: fa-envelope
+  url: "#contact"    
+
+#- text: Clients
+#  icon: fa-user-cog
+#  url: "#clients"
 

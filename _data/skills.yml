@@ -1,35 +1,44 @@
-- name: HTML
-  icon: /assets/images/icons/001-web-browser.png
+- title: Languages
+  names:
+    - Python
+    - Matlab
+    - Javascript
+  icon: fa-code
   
-- name: CSS
-  icon: /assets/images/icons/002-css.png
+- title: Data Science
+  names:
+    - Pandas
+    - Sciki-Learn
+    - TensorFlow
+    - Keras
+    - Dash
+    - Plotly
+  icon: fa-chart-bar
 
-- name: JavaScript
-  icon: /assets/images/icons/003-js-format.png
+- title: Image Analysis
+  names:
+    - Scikit-Image
+    - ImageJ
+    - CellProfiler
+  icon: fa-images
 
-- name: Photo Editing
-  icon: /assets/images/icons/005-photo-editing.png
+- title: Databases
+  names:
+   - Postgres
+   - MSSQL Server
+   - Parquet
+   - Spark
+   - SQLite
+   - MongoDB
+  icon: fa-database
 
-- name: Cliping Path
-  icon: /assets/images/icons/004-photo-size.png
+- title: DevOps
+  names: 
+    - Git
+    - GitLab
+    - GitHub
+    - TravisCI
+    - Docker
+  icon: fa-cogs
+      
 
-- name: Ecommerce
-  icon: /assets/images/icons/006-ecommerce.png
-
-- name: Reading
-  icon: /assets/images/icons/007-book.png
-
-- name: Cycleing
-  icon: /assets/images/icons/008-bicycle.png
-
-- name: Painting
-  icon: /assets/images/icons/009-paint-roller.png
-
-- name: Walking
-  icon: /assets/images/icons/010-footprint.png
-
-- name: Traveling 
-  icon: /assets/images/icons/011-travel.png
-
-- name: Playing
-  icon: /assets/images/icons/001-web-browser.png

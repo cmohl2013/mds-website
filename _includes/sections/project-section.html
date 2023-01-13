@@ -1,0 +1,16 @@
+<!--  ============= Timeline Area ============  -->
+<div id="projects" class="timeline-area my-5 my-md-8">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="timeline-item my-3">
+                    <h2 class="mb-4">My <span class="text-success">Projects</span></h2>
+                    {% for timeline in site.data.timelines %}
+                     {% if  timeline.type == 'Project' %}
+                        {% include timeline.html %}
+                    {% endif %}
+                    {% endfor %}
+                </div>
+        </div>
+    </div>
+</div>

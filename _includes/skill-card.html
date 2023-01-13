@@ -1,0 +1,10 @@
+<div class="service-item p-4 bg-white mt-3">
+    <div data-aos="fade" class="service-icon">  <i class="fas {{skill.icon}}"></i></div>
+    <div class="service-content">
+        <h5>{{skill.title}}</h5>
+        {% for skillname in skill.names %}
+        <span class="badge rounded-pill text-dark">{{skillname}}</span>
+        {% endfor %}
+       
+    </div>
+</div>
