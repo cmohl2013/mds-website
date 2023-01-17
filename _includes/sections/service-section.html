@@ -4,17 +4,16 @@
         <div class="row">
             <div class="col-md-10">
                 <div class="section-title mb-5">
-                    <span class="text-success">Services what i offer</span>
+                    <span class="text-success">Product Portfolio</span>
                     <h2>My Services</h2>
                     <div class="section-label my-2"></div>
-                    <p>A as rent still pattern. Gods, peacefully, in few needed arrive kind samples period,
-                        of deference two a the home, written groundtem, calculus his look made motivator.
+                    <p>Having more than 10 years <a href="/#experience">experience</a> in the data science field, I offer following services:
                     </p>
                 </div>
             </div>
         </div>
         <div class="row mb-5">
-            {% for service in site.services limit:6 %}
+            {% for service in site.services %}
             <div class="col-lg-6 col-xl-4">
                 {% include service-card.html %}
             </div>

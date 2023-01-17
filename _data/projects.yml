@@ -1,0 +1,171 @@
+ 
+
+- title: Python Developer / Data Engineer
+  description: Frontend and backend development of a business intelligence web application.
+  institute: DekaBank
+  tools: 
+    - Python
+    - Gitlab
+    - Pandas
+    - Mssql
+    - MLflow
+    - Dash
+    - Pytest
+    - MLflow
+    - Parquet
+    - Javascript
+  tasks:
+    - Frontend and Backend development
+    - Development of data buffering solutions for fast data provision of fragmented data sources.
+    - Implementation of a business intelligence web app
+    - Refactoring prototype scripts to production code (unit tests, continuous integration…)   
+  tags: 
+    - dev
+    - dataengineer
+  year: 2022
+  type: Project
+  id: 2021_deka
+
+
+- title: Data Scientist and Data Engineer
+  institute: Medium-sized Trading and Logistics Company
+  description: Development of AI based sales prediction models.
+  description_long: Design and implementation of an AI-supported prediction model for sales of print media in magazine distribution, prototyping, implementation and deployment of the productive system.
+  year: 2021
+  tasks:
+    - Conception of a deep learning model for the prediction of sales figures
+    - Development of a data model and ETL processes for processing raw data
+    - Implementation of the automated prediction service based on an AI model
+  tools:
+    - Tensorflow
+    - Postgres
+    - MS SQL Server
+    - Python
+    - Sqlalchemy
+    - Docker
+    - docker-compose
+    - git
+  tags:
+    - dev
+    - dataengineer
+    - datascientist
+    - ml
+  type: Project
+  id: 2021_salesprediction
+
+- title: Data Engineer / Project Lead
+  institute: Research Institute
+  description: Design and implementation of a Postgres database for data management of an automation system.
+  description_long: >
+    An automation plant produces sensor data of various types, which are fed into mathematical prediction models together with various metadata.
+    Measurement data and metadata are to be stored centrally in an SQL database.The project requires close interaction with employees who operate
+    the automation system and evaluate the data."
+  year: 2020
+  tasks:
+    - Project management
+    - Development of the data model in numerous workshops.
+    - Development of import specifications in close cooperation with future users.
+    - Implementation of the model in Python/Sqlalchemy
+    - Setting up a Postgres test database with docker-compose and Gitlab-CI
+    - Implementation of importer tools in Python.
+  tools: 
+    - Postgres
+    - Python
+    - Sqlalchemy
+    - Docker
+    - docker-compose
+    - Gitlab-CI
+  id: 2020_database_automationsystem  
+  type: Project
+  tags:
+    - dataengineer
+    - dev
+    - projecmanagement 
+
+- title: Data Scientist / Python Developer
+  description: Development of a machine learning application for the analysis of sensor data.
+  description_long: >
+    Highly noisy time series data are recorded via a sensor within a measuring apparatus.
+    In these time series, sporadically occurring events are to be automatically detected and characterized.
+    For this purpose, a machine learning software with MVC architecture was implemented in Python.
+    The software includes the following functionality:
+    Filter and normalize the raw data, calculate robust metrics based on the pre-processed data,
+    provide a graphical user interface to display data and interactively create training data sets, 
+    automatic detection of events using a supervised machine learning method, export of the result data.
+  year: before 2020
+  id: 2017_sensordata
+  type: Project
+  tags: 
+    - dev
+    - ml
+
+- title: Python Developer / Project Lead
+  description: Development of YAPiC, an open source software for analyzing biomedical image data using deep learning.
+  tasks:
+    - Project management
+    - Conception and algorithm development
+    - Presentation of the software at international conferences
+    - Deployment, development of CI/CD pipelines
+    - Management of the further development of the tool by the open source community
+  tools: 
+    - Python
+    - TensorFlow
+    - Travis-CI
+    - GitHub
+  year: before 2020
+  id: 2015_yapic
+  link:
+    href: https://yapic.github.io/yapic/
+    text: YAPiC Website
+  type: Project
+  tags: 
+    - dev
+    - datascientist
+    - imageprocessing
+    - ml
+
+- title: Data Scientist / Image Processing Specialist
+  description: Automated characterization of tissue samples using deep learning
+  description_long : As part of a medical research project, tissue samples were photographed with an automated microscope. Based on Python and Tensorflow, software was developed to identify and classify specific cell types in the tissue. In this way, different cell types could be counted automatically for user-defined tissue regions.
+  id: 2016_histology
+  year: before 2020
+  taks:
+    - Consultation of the neuroscientists involved
+    - Guidance of the scientists on the collection of training data
+    - Algorithm development
+    - Data analysis service
+    - Reporting
+  tools:
+    - Python
+    - TensorFlow
+    - git
+  tags:
+    - datascientist
+    - imageprocessing
+    - ml 
+
+- title: Python Developer, DevOps
+  description: Development of a parallelized image analysis pipeline for processing massive image data of an automated microscope.
+  description_long: >
+    An automation system within a pharmaceutical laboratory produces terabytes of image data daily.
+    Based on CellProfiler software, object recognition and feature calculation was implemented to
+    extract structured data from the raw image data. For robust deployment on an in-house CPU cluster,
+    the application was containerized with Docker and orchestrated with SLURM.
+  tasks:
+    - Definition of the specifications in collaboration with the domain experts
+    - Planning and acquisition of necessary hardware
+    - Conception and implementation
+  tools:
+    - Python
+    - CellProfiler
+    - Docker
+    - SLURM
+  id: multiprocessing_pipeline_2019
+  year: before 2020
+  tags:
+    - dev
+    - imageprocessing
+
+  
+
+  

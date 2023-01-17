@@ -4,5 +4,8 @@
     <div class="timeline-content border-start">
         <h5>{{timeline.title}}</h5>
         <p>{{timeline.description}}</p>
+        {% if timeline.id %}
+        <a href="projects/#{{ timeline.id }}">more info</a>
+        {% endif %}
     </div>
 </div>

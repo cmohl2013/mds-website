@@ -20,3 +20,4 @@ Among others, I have worked on the following use cases:
 * **Data Science Consulting** and and **Data Engineering** for the development of new
 therapies (drug discovery, pharma)
 * Backend and frontend development of **web based BI dashboards** (investment banking).
+

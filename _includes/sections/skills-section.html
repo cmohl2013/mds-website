@@ -12,9 +12,10 @@
                 </div>
             </div>
         </div>
-        <div class="row mb-5">
-            {% for skill in site.data.skills limit:6 %}
-            <div class="col-lg-6 col-xl-4">
+        <div class="row row-cols-sm-auto""></div>
+            {% for skill in site.data.skills %}
+            <!-- <div class="col-lg-6 col-xl-4">  -->
+                <div class="col">
                 {% include skill-card.html %}
             </div>
             {% endfor %}

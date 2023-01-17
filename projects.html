@@ -1,0 +1,19 @@
+---
+title: Project Portfolio
+layout: default-subsite
+home: 5
+---
+
+
+<div class="service-area py-5 py-md-8">
+    <div class="container">
+        <div class="row">
+            <ul class="list-group list-group-flush">
+                {% for project in site.data.projects %}
+                {% include project-card.html %}
+                {% endfor %}
+
+            </ul>
+        </div>
+    </div>
+</div>

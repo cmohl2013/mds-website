@@ -1,58 +1,52 @@
 # Academic qualification
-- title: BSC in Computer Science
-  description: there are manu variations of pasages ofo lorem ipsum avabile, but the majorirty have alteraton
-  institute: ABC University
-  year: 2011
+- title: PhD Biophysics
+  description: Qunatitative live cell imaging studies on focal adhesion dynamics in migrating skin cells.
+  institute: Research Center Jülich, Germany
+  year: 2006-2009
   type: Education
 
-- title: High School Education
-  description: there are manu variations of pasages ofo lorem ipsum avabile, but the majorirty have alteraton
-  institute: Roal High School
-  year: 2005
+- title: Diploma Biology/Computer Science
+  institute: University of Bonn, Germany
+  description: "Thesis: Mathematical Modelling and Measurement of Cell Migration Dynamics (Group of Wolfgang Alt)"
+  year: 1999-2005
   type: Education
 
-- title: Primary School Education
-  description: there are manu variations of pasages ofo lorem ipsum avabile, but the majorirty have alteraton
-  institute: Rio Govt. Primary School
-  year: 2000
-  type: Education
+
+
 
 # Work experience
-- title: Sr. Software Engineer
-  description: there are manu variations of pasages ofo lorem ipsum avabile, but the majorirty have alteraton
-  institute: Themeix Lab
-  year: 2019
+- title: Freelance Data Scientist
+  institute: Möhl Data Services
+  year: "since 2022"
   type: Experience
 
-- title: Jr. Software Engineer
-  description: there are manu variations of pasages ofo lorem ipsum avabile, but the majorirty have alteraton
-  institute: Themeix Lab
-  year: 2018
+- title: Data Scientist and Data Engineer
+  description: Development of AI based sales prediction models.
+  institute: IPS Press Services GmbH, Meckenheim, Germany
+  year: 2021-2022
   type: Experience
 
-- title: Internship
-  description: there are manu variations of pasages ofo lorem ipsum avabile, but the majorirty have alteraton
-  institute: Themeix Lab
-  year: 2017
+- title: Leader of  Image and Data Analysis Facility
+  description: Lead Data Scientist of a workgroup offering inhouse sofware development and data consulting services for research groups in the field of biomedical research.
+  institute: German Center of Neurodegenerative Diseases (DZNE), Bonn, Germany
+  year: 2009-2021
   type: Experience
 
-# Projects
+- title: Research associate (PostDoc)
+  description: Development of quantitative fluorescence microscopy assays in the field of zebrafish development.
+  institute: EMBL (European Molecular Biology Lab), Biophysics Unit, Gilmour Group, Heidelberg, Germany
+  year: 2009-2011
+  type: Experience
 
-- title: Sr. Software Engineer
-  description: there are manu variations of pasages ofo lorem ipsum avabile, but the majorirty have alteraton
-  institute: Themeix Lab
-  year: 2019
-  type: Project
+- title: Research associate (PhD candidate)
+  description: Development of quantitative fluorescence microscopy assays in the field of cell mechanics and cell migration.
+  institute: Research Centre Jülich, Biomechanics Unit, Merkel Group, Jülich, Germany
+  year: 2006-2009
+  type: Experience    
 
-- title: Jr. Software Engineer
-  description: there are manu variations of pasages ofo lorem ipsum avabile, but the majorirty have alteraton
-  institute: Themeix Lab
-  year: 2018
-  type: Project
 
-- title: Internship
-  description: there are manu variations of pasages ofo lorem ipsum avabile, but the majorirty have alteraton
-  institute: Themeix Lab
-  year: 2017
-  type: Project
+
+
+
+
 

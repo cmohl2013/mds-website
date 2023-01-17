@@ -1,0 +1,16 @@
+<!--  ============= Service Area ============  -->
+<div id="publications" class="timeline-area py-5 py-md-8">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-10">
+                <div class="section-title mb-5">
+                    <span class="text-success">Scientific Record</span>
+                    <h2>Publications</h2>
+                    <div class="section-label my-2" markdown="1"></div>
+                    {% capture my_include %}{% include publications_text.md %}{% endcapture %}
+                    <p>{{ my_include | markdownify }}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

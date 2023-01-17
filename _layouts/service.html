@@ -18,13 +18,30 @@ layout: default
           <div class="page-wrapper">
             <!--  ============= Service Area ============  -->
             <div class="service-area">
-                {{content}}
+              {{content}}
             </div>
           </div>
         </div>
       </div>
     </div>
 
+    <div class="service-area py-5 py-md-8">
+      <div class="container">
+        <div class="row">
+          <div class="section-title mb-5">
+            <h2 class="mb-4">Related <span class="text-success">Projects</span></h2>
+          </div>
+          <ul class="list-group list-group-flush">
+            {% for project in site.data.projects %}
+              {% if project.tags contains page.service_tag %}
+                {% include project-card.html %}
+              {% endif %}  
+            {% endfor %}
+
+          </ul>
+        </div>
+      </div>
+    </div>
     {% include footer.html %}
 
   </div>

@@ -5,10 +5,8 @@
             <div class="col-lg-6">
                 <div class="timeline-item my-3">
                     <h2 class="mb-4">My <span class="text-success">Projects</span></h2>
-                    {% for timeline in site.data.timelines %}
-                     {% if  timeline.type == 'Project' %}
-                        {% include timeline.html %}
-                    {% endif %}
+                    {% for timeline in site.data.projects %} 
+                    {% include timeline.html %}
                     {% endfor %}
                 </div>
         </div>
