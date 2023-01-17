@@ -1,0 +1,71 @@
+- lang: en
+  content:
+    - text: Home
+      icon: fa-home
+      url: "/#home"
+
+    - text: Services
+      icon: fa-database
+      url: "/#services" 
+
+    - text: Projects
+      icon: fa-th
+      url: "/#projects"
+
+    - text: Tools
+      icon: fas fa-tools
+      url: "/#skills"
+
+    - text: Certificates
+      icon: fas fa-certificate
+      url: "/#certificates"  
+
+    - text: CV
+      icon: fas fa-graduation-cap
+      url: "/#experience"
+
+    - text: Publications
+      icon: fa-pen-nib
+      url: "/#publications"      
+
+    - text: Contact
+      icon: fa-envelope
+      url: "/#contact"
+
+- lang: de
+  content:
+    - text: Home
+      icon: fa-home
+      url: "/#home"
+
+    - text: Services
+      icon: fa-database
+      url: "/#services" 
+
+    - text: Projekte
+      icon: fa-th
+      url: "/#projects"
+
+    - text: Werkzeuge
+      icon: fas fa-tools
+      url: "/#skills"
+
+    - text: Zertifikate
+      icon: fas fa-certificate
+      url: "/#certificates"  
+
+    - text: Beruflicher Werdegang
+      icon: fas fa-graduation-cap
+      url: "/#experience"
+
+    - text: Publikationen
+      icon: fa-pen-nib
+      url: "/#publications"      
+
+    - text: Kontakt
+      icon: fa-envelope
+      url: "/#contact"      
+
+
+
+

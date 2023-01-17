@@ -1,10 +1,36 @@
 <ul id="sidebar-menu">
-{% for link in site.data.navigation_onepage %}
+    
+    
+    {% for navdata in site.data.navigation %}
+    {% if navdata.lang == page.lang %}
+    {% assign nav_list_selected = navdata %}
+    
+    {% endif %}
+    {% endfor %}
+    
+    
+    
+    {% for link in nav_list_selected.content %}
+    
     <li>
         <a href="{{link.url}}"><i class="fas {{link.icon}}"></i> {{link.text}}</a>
 
     </li>
-
-{% endfor %}
+    <p>
+    {% endfor %}
+    <div class="button">
+    {% if page.lang == "de" %}
+    <a href="/en">Switch to English</a>
+    {% endif %}
+    {% if page.lang == "en" %}
+    <a href="/#">Auf Deutsch wechseln</a>
+    {% endif %}
+    </div>
+    </p>
+    
+    <select class="selectpicker" data-width="fit">
+        <option data-content='<span class="flag-icon flag-icon-us"></span> English'>English</option>
+      <option  data-content='<span class="flag-icon flag-icon-mx"></span> Deutsch'>Deutsch</option>
+    </select>
+    
 </ul>
-
