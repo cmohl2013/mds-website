@@ -23,16 +23,10 @@ jobs:
     - name: build website artifacts
       uses:  jerryjvl/jekyll-build-action@v1
      
-    - name: "path"
-      run: pwd ${{ vars.GITHUB_WORKSPACE }}
-
-    - name: "listdir"
-      run: ls ${{ vars.GITHUB_WORKSPACE }}
-    
     - name: Install lftp
       run: sudo apt install lftp
 
-    - name: download userfiles
+    - name: upload website artifacts
       run: lftp -c "set ssl:verify-certificate false; open -u ${{ secrets.FTP_USERNAME }},${{ secrets.FTP_PASSWORD }} ${{ secrets.FTP_HOST }}; mirror -R _site public_html"
 
     
