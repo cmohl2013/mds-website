@@ -20,11 +20,9 @@ jobs:
           ${{ runner.os }}-gems-
 
     # Build website
-    - uses:  helaili/jekyll-action@v2
-      with:
-        token: ${{ secrets.GITHUB_TOKEN }}
-    
-    
+    - name: build website artifacts
+      uses:  jerryjvl/jekyll-build-action@v1
+     
     - name: "path"
       run: pwd ${{ vars.GITHUB_WORKSPACE }}
 
