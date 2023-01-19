@@ -24,6 +24,13 @@ jobs:
       with:
         token: ${{ secrets.GITHUB_TOKEN }}
     
+    
+    - name: "path"
+      run: pwd ${{ vars.GITHUB_WORKSPACE }}
+
+    - name: "listdir"
+      run: ls ${{ vars.GITHUB_WORKSPACE }}
+
     # Copy Website artifacts to server
     - name: 📂 Sync files
       uses: SamKirkland/FTP-Deploy-Action@4.3.3
