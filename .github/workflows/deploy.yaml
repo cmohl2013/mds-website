@@ -33,11 +33,9 @@ jobs:
     - name: 📂 Sync files
       uses: SamKirkland/FTP-Deploy-Action@4.3.3
       with:
-        server: ${{ secrets.ftp_serveraddress }}
+        server: www352.your-server.de
         username: ${{ secrets.ftp_username }}
         password: ${{ secrets.ftp_password }}
-        port: 22
-        protocol: ftp
         local-dir: ./_site/
         server-dir: public_html/ 
 
