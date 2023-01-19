@@ -3,20 +3,21 @@ layout: service
 title: Data Science
 icon: fa fa-chart-bar
 img_src: '/assets/images/portfolio/portfolio-image.jpg'
-description: 'Beratung, Analyse Dienstleistungen, Data Mining, Datenvisualisierung'
+description: 'Consulting, Analysis Service, Data Mining, Data Visualization'
 service_id: 1
 home: 4
 service_tag: datascientist
-lang: de
+lang: en
+
 ---
 
 
 
-* Datenbereinigung
-* Normalisierung
-* Visalisierung
-* Statistische Analysen
+* Data Cleaning
+* Normalization
+* Data Visualization
+* Statistical Analysis
 * Clustering
-* Überwachte Klassifizierung
+* Supervised Classification
 * Regression
 * Feature Engineering

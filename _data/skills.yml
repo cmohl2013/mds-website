@@ -1,11 +1,13 @@
-- title: Languages
+- title_en: Languages
+  title_de: Sprachen
   names:
     - Python
     - Matlab
     - Javascript
   icon: fa-code
   
-- title: Data Science
+- title_en: Data Science
+  title_de: Data Science
   names:
     - Pandas
     - Sciki-Learn
@@ -15,14 +17,16 @@
     - Plotly
   icon: fa-chart-bar
 
-- title: Image Analysis
+- title_en: Image Analysis
+  title_de: Bildanalyse
   names:
     - Scikit-Image
     - ImageJ
     - CellProfiler
   icon: fa-images
 
-- title: Databases
+- title_en: Databases
+  title_de: Datenbanken
   names:
    - Postgres
    - MSSQL Server
@@ -32,7 +36,8 @@
    - MongoDB
   icon: fa-database
 
-- title: DevOps
+- title_en: DevOps
+  title_de: DevOps
   names: 
     - Git
     - GitLab

@@ -1,15 +1,32 @@
 # Academic qualification
 - title: PhD Biophysics
-  description: Qunatitative live cell imaging studies on focal adhesion dynamics in migrating skin cells.
+  description: Quantitative live cell imaging studies on focal adhesion dynamics in migrating skin cells.
   institute: Research Center Jülich, Germany
   year: 2006-2009
   type: Education
+  lang: en
 
 - title: Diploma Biology/Computer Science
   institute: University of Bonn, Germany
   description: "Thesis: Mathematical Modelling and Measurement of Cell Migration Dynamics (Group of Wolfgang Alt)"
   year: 1999-2005
   type: Education
+  lang: en
+
+  # Academic qualification DE
+- title: Dr. rer. nat. (Biophysik)
+  description: Qunatitative Mikroskopie von Fokaladhöäsionsdynamik in humanen Hautzellen.
+  institute: Forschungszentrum Jülich
+  year: 2006-2009
+  type: Education
+  lang: de
+
+- title: Diplom Biologie (Nebenfach Informatik)
+  institute: Universität Bonn
+  description: "Diplomarbeit: Mathematische Modellierung von Zellmigrationsprozessen (Arbeitsgruppe von Wolfgang Alt)"
+  year: 1999-2005
+  type: Education
+  lang: de
 
 
 
@@ -19,30 +36,72 @@
   institute: Möhl Data Services
   year: "since 2022"
   type: Experience
+  lang: en
 
 - title: Data Scientist and Data Engineer
   description: Development of AI based sales prediction models.
   institute: IPS Press Services GmbH, Meckenheim, Germany
   year: 2021-2022
   type: Experience
+  lang: en
 
 - title: Leader of  Image and Data Analysis Facility
   description: Lead Data Scientist of a workgroup offering inhouse sofware development and data consulting services for research groups in the field of biomedical research.
   institute: German Center of Neurodegenerative Diseases (DZNE), Bonn, Germany
   year: 2009-2021
   type: Experience
+  lang: en
 
 - title: Research associate (PostDoc)
   description: Development of quantitative fluorescence microscopy assays in the field of zebrafish development.
   institute: EMBL (European Molecular Biology Lab), Biophysics Unit, Gilmour Group, Heidelberg, Germany
   year: 2009-2011
   type: Experience
+  lang: en
 
 - title: Research associate (PhD candidate)
   description: Development of quantitative fluorescence microscopy assays in the field of cell mechanics and cell migration.
   institute: Research Centre Jülich, Biomechanics Unit, Merkel Group, Jülich, Germany
   year: 2006-2009
-  type: Experience    
+  type: Experience
+  lang: en
+
+
+# Work experience DE
+- title: Selbständiger IT Berater
+  institute: Möhl Data Services
+  year: "seit 2022"
+  type: Experience
+  lang: de
+
+- title: Data Scientist und Data Engineer
+  description: Entwicklung von KI Vorhersagemodellen.
+  institute: IPS Press Services GmbH, Meckenheim
+  year: 2021-2022
+  type: Experience
+  lang: de
+
+- title: Leiter Bild- und Datenanalyse Facility
+  description: Lead Data Scientist einer Arbeitsgruppe die Inhouse Softwareentwicklung und Beratung für Forschungsgruppen im Bereich biomedizinische Forschung anbietet.
+  institute: Deutsches Zentrum für Neurodegenerative Erkrankungen (DZNE), Bonn
+  year: 2009-2021
+  type: Experience
+  lang: de
+
+- title: Wissenschaftlicher Mitarbeiter (PostDoc)
+  description: Entwicklung von quantitativen Fluoreszenzmikroskopie Assays im Bereich Zebrafisch Entwicklungsbiologie.
+  institute: EMBL (European Molecular Biology Lab), Heidelberg
+  year: 2009-2011
+  type: Experience
+  lang: de
+
+- title: Wissenschaftlicher Mitarbeiter (Doktorand)
+  description: Entwicklung von quantitativen Fluoreszenzmikroskopie Assays im Bereich Zellmechanik und Zellmigration.
+  institute: Forschungszentrum Jülich
+  year: 2006-2009
+  type: Experience
+  lang: de  
+
 
 
 

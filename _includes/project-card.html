@@ -11,7 +11,7 @@
             <p class="card-text"><h6>Tasks:</h6><ul>{% for task in project.tasks %}<li>{{task}}</li>{% endfor %}</ul></p>
             {% endif  %}
             {% if project.tools %}
-            <p class="card-text"><h6>Tools:</h6>{% for tool in project.tools %}<span class="badge rounded-pill text-dark">{{tool}}</span>{% endfor %}</p>
+            <p class="card-text"><h6>Tools:</h6>{% for tool in project.tools %}<span class="badge rounded-pill text-primary">{{tool}}</span>{% endfor %}</p>
             {% endif %}
             {% if project.link %}
             <a href="{{ project.link.href }}" class="card-link">{{ project.link.text }}</a>

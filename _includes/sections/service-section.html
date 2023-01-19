@@ -4,22 +4,33 @@
         <div class="row">
             <div class="col-md-10">
                 <div class="section-title mb-5">
+                    {% if page.lang == "en" %}
                     <span class="text-success">Product Portfolio</span>
-                    <h2>My Services</h2>
+                    <h2>My <span class="text-success">Services</span></h2>
                     <div class="section-label my-2"></div>
-                    <p>Having more than 10 years <a href="/#experience">experience</a> in the data science field, I offer following services:
+                    <p>Having more than 10 years <a href="#experience">experience</a> in the data science field, I offer following services:
                     </p>
+                    {% else %}
+                    <span class="text-success">Produkt Portfolio</span>
+                    <h2>Meine <span class="text-success">Services</span></h2>
+                    <div class="section-label my-2"></div>
+                    <p>Mit mehr als 10 Jahren <a href="#experience">Berufserfahrung</a> im Bereich Data Science biete ich folgende Dienstleistungen an:
+                    </p>
+                    {% endif %}
+
                 </div>
             </div>
         </div>
         <div class="row mb-5">
             {% for service in site.services %}
+            {% if service.lang == page.lang %}
             <div class="col-lg-6 col-xl-4">
                 {% include service-card.html %}
             </div>
+            {% endif %}
             {% endfor %}
         </div>
         <a href="#contact"><button  data-aos="slide-up"  data-aos-duration="6000"  type="button"
-            class="btn btn-outline-success mx-auto mx-md-0 d-block">Ask for Offer</button></a>
+            class="btn btn-outline-success mx-auto mx-md-0 d-block">{% if page.lang == "en" %}Ask for Offer{% else %} Angebot anfragen {% endif %}</button></a>
     </div>
 </div>

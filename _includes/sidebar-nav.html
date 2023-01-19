@@ -8,26 +8,39 @@
     {% include navigation.html %}
 
     <div class="sidebar-contact">
-        <a href="#" class="btn btn-success d-block mb-4"  data-aos="fade-up">Download CV</a>
+
+        {% for content in site.data.hero %}
+        {% if content.lang == page.lang %}
         <ul class="contact-info list-inline mb-5">
-            <li class="my-3 text-primary">
-                <i class="fas fa-phone-alt me-2"></i> +43454000554
+            <li class="my-3 text-primary ">
+                <i class="fas fa-download me-2"></i>
+                <a href={{content.download_link_cv}}>{{content.cv_download_btn_caption}}</a>
             </li>
-            <li class="my-3 text-primary "><i class="fas fa-envelope me-2"></i> <a href="/#contact">contact me</a></li>
+            <li class="my-3 text-primary ">
+                <i class="fas fa-envelope me-2"></i>
+                <a href={{content.contact_link}}>{{content.contact_btn_caption}}</a>
+            </li>
         </ul>
+        {% endif %}
+        {% endfor %}
+
         <div class="d-flex flex-wrap align-items-center justify-content-between mt-md-6 mt-4">
             <ul class="social-share m-0 list-inline">
                 {% if site.twitter %}
-                <li class="list-inline-item"><a href="{{site.twitter | relative_url}}"><i class="fab fa-twitter"></i></a></li>
+                <li class="list-inline-item"><a href="{{site.twitter | relative_url}}"><i
+                            class="fab fa-twitter"></i></a></li>
                 {% endif %}
                 {% if site.instagram %}
-                <li class="list-inline-item"><a href="{{site.instagram | relative_url}}"><i class="fab fa-instagram"></i></a></li>
+                <li class="list-inline-item"><a href="{{site.instagram | relative_url}}"><i
+                            class="fab fa-instagram"></i></a></li>
                 {% endif %}
                 {% if site.facebook %}
-                <li class="list-inline-item"><a href="{{site.facebook | relative_url}}"><i class="fab fa-facebook-f"></i></a></li>
+                <li class="list-inline-item"><a href="{{site.facebook | relative_url}}"><i
+                            class="fab fa-facebook-f"></i></a></li>
                 {% endif %}
                 {% if site.linkedin %}
-                <li class="list-inline-item"><a href="{{site.linkedin | relative_url}}"><i class="fab fa-linkedin-in"></i></a></li>
+                <li class="list-inline-item"><a href="{{site.linkedin | relative_url}}"><i
+                            class="fab fa-linkedin-in"></i></a></li>
                 {% endif %}
             </ul>
 

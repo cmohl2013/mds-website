@@ -4,6 +4,10 @@
     <div class="service-content">
         <h5>{{service.title}}</h5>
         <p>{{service.description}}</p>
-        <a href="{{service.url}}" class="see-more text-success">See More</a>
+        <a href="{{service.url}}" class="see-more text-success">
+            {% if service.lang == "en" %}See More
+            {% else %} Mehr dazu
+            {% endif %}
+        </a>
     </div>
 </div>

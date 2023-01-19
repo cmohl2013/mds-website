@@ -1,29 +1,34 @@
 ---
 layout: service
-title: Artificial Intelligence & Machine Learning
+title: Künstliche Intelligenz & Machine Learning
 icon: fa fa-brain
 img_src: '/assets/images/portfolio/portfolio-image.jpg'
-description: 'Prototyping, Optimization and Deployment of ML models'
+description: 'Prototyping, Optimierung and Deployment von ML Modellen'
 service_id: 2
 home: 4
 service_tag: ml
-
+lang: de
 ---
 
 
+* Deep Learning
+* Überwachte Klassifizierung
+* Unüberwachte Klassifizierung (Clustering)
+* Regression
 
-* deep learning
-* supervised classification
-* unsupervised classification (clustering)
-* regression
+* Entwicklung von Prototypen / Proof of Concept
+* Weiterentwicklung von Modellen für den produktiven Einsatz 
 
-* development of prototypes
-* development of production models
 
-#### My working principles:
+#### Meine Arbeitsprinzipien
 
-* As simple as possible, as complicated as necessary: Your data-driven predictive models will be perfectly tailored to data situations and business problems.
+* **So einfach wie möglich, so kompliziert wie nötig**: Ihre datengetriebenen
+  Vorhersagemodelle werden auf Datenlage und Business-Problem perfekt zugeschnitten
+  sein.
 
-* Robust Data Science solutions require a solid foundation: design and optimization of predictive models are done with scientifically sound methods.
+* Robuste Data Science Lösungen benötigen ein solides Fundament: Design und
+  Optimierung von Vorhersagemodellen erfolgen mit **wissenschaftlich fundierten Methoden**.
 
-* Quality through high engineering standards: Code is documented in detail, and comprehensive unit tests ensure robust functionality. 
+* Qualität durch **hohe Engineering Standards**: Von mir bereitgestellte Software ist
+  detailliert dokumentiert, und flächendeckende Unit-Tests gewährleisten robuste
+  Funktionalität.

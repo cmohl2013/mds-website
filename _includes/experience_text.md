@@ -1,23 +1,24 @@
 
-I have **more than 10 years of practical experience as a Data Scientist, AI expert,
-image analysis specialist and Python developer**. I use AI methods pragmatically and
-can critically assess their benefits.
 
-As a long-time **leader of a data analysis service department** in a scientific
-environment, I have gained experience in **project management and personnel
-recruitment** and actively participated in the development of new technologies.
+Ich verfüge über **mehr als 10 Jahre Praxiserfahrung als Data Scientist, KI Experte,
+Bildanalyse-Spezialist und Python Entwickler**. Ich setze KI Methoden pragmatisch
+ein und kann deren Nutzen kritisch einordnen.
 
-As a Data Scientist in the field of wholesale and distribution, **I know the
-requirements of medium-sized companies** and can develop customized solutions in
-the field of AI and data engineering with a sense of proportion for the respective
-budget framework.
+Als langjähriger **Leiter einer Datenanalyse Service Abteilung im wissenschaftlichen
+Umfeld** habe ich Erfahrung in Projektleitung und Personalrekrutierung gesammelt
+und die Entwicklung neuer Technologien aktiv mitgestaltet.
 
-Among others, I have worked on the following use cases:
+Als **Data Scientist im Bereich Großhandel und Vertrieb** habe ich die
+Anforderungen von mittelständischen Unternehmen kennengelernt und kann maßgeschneiderte
+**Lösungen im Bereich KI und Data Engineering** mit Augenmaß für den jeweiligen
+Budgetrahmen entwickeln.
 
-* Prediction of **sales figures** (wholesale and retail)
-* Processing and analysis of **sensor data** (biotechnology)
-* Automated **object recognition** in medical **image data** (Biomedical Research).
-* **Data Science Consulting** and and **Data Engineering** for the development of new
-therapies (drug discovery, pharma)
-* Backend and frontend development of **web based BI dashboards** (investment banking).
+Unter anderem habe ich an folgenden Anwendungsfällen gearbeitet:
 
+* Vorhersage von Verkaufszahlen (Groß- und Einzelhandel)
+* Verarbeitung und Analyse von Sensordaten (Biotechnologie)
+* Automatisierte Objekterkennung in medizinischen Bilddaten (Biomedizinische
+Forschung)
+* Data Science Consulting und und Data Engineering für die Entwicklung neuer
+Therapien (Wirkstoffforschung, Pharma)
+* Backend und Frontend Endwicklung von **Web basierten BI Dashboards** (Investment Banking).

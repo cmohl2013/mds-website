@@ -1,9 +1,13 @@
 <div class="service-item p-4 bg-white mt-3">
-    <div data-aos="fade" class="service-icon">  <i class="fas {{skill.icon}}"></i></div>
+    <div data-aos="fade" class="service-icon">  <i class="fas {{skill.icon}} fa-2x"></i></div>
     <div class="service-content">
-        <h5>{{skill.title}}</h5>
+        {% if page.lang == "en" %}
+        <h5>{{skill.title_en}}</h5>
+        {% else %}
+        <h5>{{skill.title_de}}</h5>
+        {% endif %}
         {% for skillname in skill.names %}
-        <span class="badge rounded-pill text-dark">{{skillname}}</span>
+        <span class="badge rounded-pill text-primary">{{skillname}}</span>
         {% endfor %}
        
     </div>

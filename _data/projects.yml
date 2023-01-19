@@ -25,12 +25,43 @@
   year: 2022
   type: Project
   id: 2021_deka
+  lang: en
+
+- title: Python Entwickler / Data Engineer
+  description: Frontend and Backend Entwicklung einr Business Intelligence Web App.
+  institute: DekaBank
+  tools: 
+    - Python
+    - Gitlab
+    - Pandas
+    - Mssql
+    - MLflow
+    - Dash
+    - Pytest
+    - MLflow
+    - Parquet
+    - Javascript
+  tasks:
+    - Frontend und Backend Entwicklung
+    - Entwicklung von Lösungen zum Zwischenspeichern von Daten zur schnellen Bereitstellung einer fragmentierten Datenbasis.
+    - Entwicklung einer Business Intelligence Web App
+    - Weiterentwicklung und Refaktorierung von Prototyp Skripten zu Produktionscode (Unit Tests, Continuous Integration...) 
+  tags: 
+    - dev
+    - dataengineer
+  year: 2022
+  type: Project
+  id: 2021_deka
+  lang: de
 
 
 - title: Data Scientist and Data Engineer
   institute: Medium-sized Trading and Logistics Company
   description: Development of AI based sales prediction models.
-  description_long: Design and implementation of an AI-supported prediction model for sales of print media in magazine distribution, prototyping, implementation and deployment of the productive system.
+  description_long: >
+    Design and implementation of an AI-supported prediction model for sales of
+    print media in magazine distribution, prototyping, implementation and deployment
+    of the productive system.
   year: 2021
   tasks:
     - Conception of a deep learning model for the prediction of sales figures
@@ -52,14 +83,44 @@
     - ml
   type: Project
   id: 2021_salesprediction
+  lang: en
+
+- title: Data Scientist and Data Engineer
+  institute: Mitteständisches Großhandels- und Logistikunternehmen
+  description: Entwicklung von KI basierten Vorhersagemodellen
+  description_long: >
+    Design und Implementierung eines KI basierten Modells zur Vorhersage von Verkaufszahlen und Produktprovisionierung.
+  year: 2021
+  tasks:
+    - Konzeption eines Deep Learning Modells zur Vorhersage von Verkaufszahlen
+    - Entwicklung von Datenmodellen und ETL Prozessen zur Vorverarbeitung der Rohdaten
+    - Implementierung eines automatisierten Vorhersage Service basierend auf KI Modellen
+  tools:
+    - Tensorflow
+    - Postgres
+    - MS SQL Server
+    - Python
+    - Sqlalchemy
+    - Docker
+    - docker-compose
+    - git
+  tags:
+    - dev
+    - dataengineer
+    - datascientist
+    - ml
+  type: Project
+  id: 2021_salesprediction
+  lang: de  
+
 
 - title: Data Engineer / Project Lead
   institute: Research Institute
   description: Design and implementation of a Postgres database for data management of an automation system.
   description_long: >
-    An automation plant produces sensor data of various types, which are fed into mathematical prediction models together with various metadata.
-    Measurement data and metadata are to be stored centrally in an SQL database.The project requires close interaction with employees who operate
-    the automation system and evaluate the data."
+    An automation plant produces sensor data of various types, which are fed into mathematical prediction models
+    together with various metadata. Measurement data and metadata are to be stored centrally in an SQL database.
+    The project requires close interaction with employees who operate the automation system and evaluate the data.
   year: 2020
   tasks:
     - Project management
@@ -80,7 +141,43 @@
   tags:
     - dataengineer
     - dev
-    - projecmanagement 
+    - projecmanagement
+  lang: en
+
+- title: Data Engineer / Projektleitung
+  institute: Forschungseinrichtung
+  description: >
+    Konzeption und Implementierung einer Postgres Datenbank zum Datenmanagement
+    einer Automationsanlage.
+  description_long: >
+    Eine Automationsanlage produziert Sensordaten verschiedener Art, die zusammen mit diversen
+    Metadaten in mathematische Vorhersagemodelle eingespeist werden. Messdaten und
+    Metadaten sollen zentral in einer SQL Datenbank gespeichert werden.
+    Das Projekt erfordert engen Austausch mit Mitarbeitern die die Automationsanlage betreiben
+    und die Daten auswerten.
+  year: 2020
+  tasks:
+    - Projektmanagement
+    - Entwicklung des Datenmodells in zahlreichen Workshops.
+    - Erarbeitung der Import Spezifikationen in enger Zusammenarbeit mit den künftigen Nutzern.
+    - Implementierung des Modells in Python/Sqlalchemy
+    - Aufsetzen einer Postgres Testdatenbank mit docker-compose und Gitlab-CI
+    - mplementierung von Importer Tools in Python.
+  tools: 
+    - Postgres
+    - Python
+    - Sqlalchemy
+    - Docker
+    - docker-compose
+    - Gitlab-CI
+  id: 2020_database_automationsystem  
+  type: Project
+  tags:
+    - dataengineer
+    - dev
+    - projectmanagement
+  lang: de
+
 
 - title: Data Scientist / Python Developer
   description: Development of a machine learning application for the analysis of sensor data.
@@ -92,12 +189,43 @@
     Filter and normalize the raw data, calculate robust metrics based on the pre-processed data,
     provide a graphical user interface to display data and interactively create training data sets, 
     automatic detection of events using a supervised machine learning method, export of the result data.
+  tools:
+    - Python
+    - Tkinter
+    - Scikit-Learn
+    - git
   year: before 2020
   id: 2017_sensordata
   type: Project
   tags: 
     - dev
     - ml
+  lang: en
+
+- title: Data Scientist / Python Entwickler
+  description: Entwicklung einer Machine Learning Applikation zur Auswertung von Sensordaten.
+  description_long: >
+    Über einen Sensor innerhalb einer Messapparatur werden stark verrauschte Zeitreihendaten
+    aufgezeichnet. In diesen Zeitreihen sollen sporadisch auftretende Events automatisch detektiert
+    und charakterisiert werden. Zu diesem Zweck wurde eine Machine Learning Software mit MVC
+    Architektur in Python implementiert. Die Software umfasst folgende Funktionalität:
+    Filtern und Normalisieren der Rohdaten, Berechnung robuster Kennzahlen auf Grundlage der vorprozessierten Daten, 
+    Bereitstellung einer grafischen Benutzeroberfläche zur Darstellung der Daten und zur interaktiven Erstellung
+    von Trainingsdatensätzen, Automatische Detektion der Events mit einem überwachten Machine Learning Verfahren,
+    Export der Ergebnisdaten.
+  tools:
+    - Python
+    - Tkinter
+    - Scikit-Learn
+    - git  
+  year: vor 2020
+  id: 2017_sensordata
+  type: Project
+  tags: 
+    - dev
+    - ml
+  lang: de  
+
 
 - title: Python Developer / Project Lead
   description: Development of YAPiC, an open source software for analyzing biomedical image data using deep learning.
@@ -123,6 +251,35 @@
     - datascientist
     - imageprocessing
     - ml
+  lang: en
+
+- title: Python Entwickler / Projektleitung / Experte Bildverarbeitung
+  description: Entwicklung von YAPiC einer Open Source Software zur Analyse von biomedizinischen Bilddaten mit Hilfe von Deep Learning.
+  tasks:
+    - Projectmanagement
+    - Konzeption und Algorithmenentwicklung
+    - Präsentation der Software auf internationalen Tagungen
+    - Deployment, Entwicklung von CI/CD Pipelines
+    - Management der Weiterentwicklung des Tools durch die Open Source Community
+  tools: 
+    - Python
+    - TensorFlow
+    - Travis-CI
+    - GitHub
+  year: vor 2020
+  id: 2015_yapic
+  link:
+    href: https://yapic.github.io/yapic/
+    text: YAPiC Website
+  type: Project
+  tags: 
+    - dev
+    - datascientist
+    - imageprocessing
+    - ml
+  lang: de  
+
+
 
 - title: Data Scientist / Image Processing Specialist
   description: Automated characterization of tissue samples using deep learning
@@ -143,6 +300,35 @@
     - datascientist
     - imageprocessing
     - ml 
+  lang: en
+
+- title: Data Scientist / Experte Bildverarbeitung
+  description: Automatisierte Charakterisierung von Gewebeproben mittels Deep Learning
+  description_long : >
+    Im Rahmen eines medizinischen Forschungsprojektes wurden Gewebeproben mit einem
+    automatisierten Mikroskop fotografiert. Auf Basis von Python und Tensorflow wurde eine
+    Software entwickelt, um spezifische Zelltypen im Gewebe zu identifizieren und zu klassifizieren.
+    Auf diese Weise konnten unterschiedliche Zelltypen für benutzerdefinierte Gewebe-Regionen
+    automatisiert ausgezählt werden.
+  id: 2016_histology
+  year: before 2020
+  taks:
+    - Beratung der beteiligten Neurowissenschaftler
+    - Anleitung der Wissenschaftler zum Sammeln von Trainingsdaten
+    - Algorithmenentwicklung
+    - Datenanalyse Service
+    - Reporting
+  tools:
+    - Python
+    - TensorFlow
+    - git
+  tags:
+    - datascientist
+    - imageprocessing
+    - ml 
+  lang: de
+
+
 
 - title: Python Developer, DevOps
   description: Development of a parallelized image analysis pipeline for processing massive image data of an automated microscope.
@@ -165,6 +351,32 @@
   tags:
     - dev
     - imageprocessing
+  lang: en
+
+- title: Python Entwickler, DevOps
+  description: >
+    Entwicklung einer parallelisierten Bildanalyse-Pipeline zur Verarbeitung massiver Bilddaten eines automatisierten Mikroskops.
+  description_long: >
+    Eine Automationsanlage innerhalb eines pharmazeutischen Labors produziert täglich Bilddaten
+    im Terabyte Bereich. Auf Gundlage der CellProfiler software wurde eine Objekterkennung und
+    Feature Berechnung implementiert, um strukturierte Daten aus den rohen Bilddaten zu
+    gewinnen. Zum robusten Deployment auf einem in-house betriebenen CPU cluster wurde die
+    Anwendung mit Docker containerisiert und mit SLURM orchestriert.
+  tasks:
+    - Definition der Spezifikationen in Zusammenarbeit mit den Domänen Experten
+    - Planung und Anschaffung erforderlicher Hardware
+    - Konzeption und Implementierung
+  tools:
+    - Python
+    - CellProfiler
+    - Docker
+    - SLURM
+  id: multiprocessing_pipeline_2019
+  year: before 2020
+  tags:
+    - dev
+    - imageprocessing
+  lang: de   
 
   
 

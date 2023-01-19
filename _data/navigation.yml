@@ -2,35 +2,35 @@
   content:
     - text: Home
       icon: fa-home
-      url: "/#home"
+      url: "/en/#home"
 
     - text: Services
       icon: fa-database
-      url: "/#services" 
+      url: "/en/#services" 
 
     - text: Projects
       icon: fa-th
-      url: "/#projects"
+      url: "/en/#projects"
 
     - text: Tools
       icon: fas fa-tools
-      url: "/#skills"
+      url: "/en/#skills"
 
     - text: Certificates
       icon: fas fa-certificate
-      url: "/#certificates"  
+      url: "/en/#certificates"  
 
     - text: CV
       icon: fas fa-graduation-cap
-      url: "/#experience"
+      url: "/en/#experience"
 
     - text: Publications
       icon: fa-pen-nib
-      url: "/#publications"      
+      url: "/en/#publications"      
 
     - text: Contact
       icon: fa-envelope
-      url: "/#contact"
+      url: "/en/#contact"
 
 - lang: de
   content:

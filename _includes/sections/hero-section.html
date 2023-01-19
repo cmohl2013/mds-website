@@ -1,21 +1,34 @@
 <!--  ============= Banner Area ============  -->
+{% for content in site.data.hero %}
+{% if content.lang == page.lang %}
 <div id="home" class="banner-area py-5 py-lg-8 mvh-100 d-flex align-items-center">
     <div class="container">
         <div class="row d-flex align-items-center">
             <div class="col-md-8">
                 <div class="banner-content mb-md-0 mb-4 text-center text-md-start">
-                    <p class="fw-bold text-success">{{site.data.hero.profession}}</p>
-                    <h1 class="display-4 my-3">{{site.data.hero.name}}</h1>
-                    {% capture my_include %}{% include hero_text.md %}{% endcapture %}
+                    <p>{% include language_switcher.html %}</p>
+
+
+                    <p class="fw-bold text-success">{{content.profession}}</p>
+
+
+                    <h1 class="display-4 my-3">{{content.name}}</h1>
+                    {% capture my_include %}{% include {{content.description_filename}} %}{% endcapture %}
                     <p class="mb-0">{{ my_include | markdownify }}</p>
-                    <a href={{site.data.hero.download_link_cv}} class="btn btn-success mt-4">Download CV<i class="fas fa-download ms-2"></i></a>
-                    <a href={{site.data.hero.contact_link}} class="btn btn-success mt-4">Contact Me<i class="fas fa-envelope ms-2"></i></a>
+                    <a href={{content.download_link_cv}} class="btn btn-success mt-4">{{content.cv_download_btn_caption}}<i
+                            class="fas fa-download ms-2"></i></a>
+                    <a href={{content.contact_link}} class="btn btn-success mt-4">{{content.contact_btn_caption}}<i
+                            class="fas fa-envelope ms-2"></i></a>
+
                 </div>
             </div>
             <div class="col-md-4">
-                <div  data-aos="zoom-in-up"  data-aos-delay="1500ms"  class="banner-image text-center"><img src="{{site.data.hero.banner_image_source | relative_url}}" alt="image">
+                <div data-aos="zoom-in-up" data-aos-delay="1500ms" class="banner-image text-center"><img
+                        src="{{content.banner_image_source | relative_url}}" alt="image">
                 </div>
             </div>
         </div>
     </div>
 </div>
+{% endif %}
+{% endfor %}

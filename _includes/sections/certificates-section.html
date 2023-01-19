@@ -3,14 +3,22 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-10">
-				<div class="section-title mb-5">
+				{% if page.lang == "en"%}
+                <div class="section-title mb-5">
 					<span class="text-success">Advanced Trainings</span>
 					<h2>Certificates</h2>
 					<div class="section-label my-2"></div>
-					<p>
-						I have successfully completed the following training courses:
-						</p>
+					<p> I have successfully completed the following training courses:</p>
 				</div>
+                {% else %}
+                <div class="section-title mb-5">
+					<span class="text-success">Weiterbildungen</span>
+					<h2>Zertifikate</h2>
+					<div class="section-label my-2"></div>
+					<p> Ich habe folgende Weiterbildungskurse erfolgreich abgeschlossen:</p>
+				</div>
+                {% endif%}
+				
 			</div>
 		</div>
 
@@ -22,7 +30,11 @@
 					<img src="{{certificate.logo | relative_url}}" alt="{{certificate.name}}">
 					<h5>{{certificate.name}}</h5>
 					<p class="m-0">
-						<a href={{certificate.website_url}}>more info</a>
+						{% if page.lang == "en"%}
+						<a href={{certificate.website_url}}>See More</a>
+						{% else %}
+						<a href={{certificate.website_url}}>Mehr dazu</a>
+						{% endif %}
 					</p>
 				</div>
 				{% endfor %}

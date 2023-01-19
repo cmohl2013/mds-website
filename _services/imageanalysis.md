@@ -1,24 +1,27 @@
 ---
 layout: service
-title: Image Processing & Analysis
+title: Bildverarbeitung & Analyse
 icon: fa fa-image
-description: 'Automated Object Detection, Classification, etc.'
+description: 'Automatische Objecterkennung, Klassifizierung, etc.'
 service_id: 2
 home: 4
 service_tag: imageprocessing
-
+lang: de
 ---
 
-During my scientific carreer and my position as *Leader of Image and Data Analysis Facility* (9 years employment) at the German Center of Neurodegenerative diseases I have carried out, accompained or managed many projects in the field of quantitative image analysis. This includes
+Während meiner Arbeit als Naturwissenschaftler und meiner langjährigen Tätigkeit als *Leiter der Bild- und Datenanalyse Facility* (9 Jahre) am Deutschen Zentrum für Neurodegenerative Erkrankungen (DZNE) habe ich zahlreiche Projekte im Bereich **quantitative Bildanalyse** geleitet, eigenständig durchgeführt oder begleitet.
 
-* image analysis training for scientists
-* image restoration (dealing with measurement artifacts)
-* automated detection
-* classification of objects
-* classification of images
-* handling processing of large amounts of image data
+Meine Tätigkeiten umfassen:
 
-Tools for image processing:
+* Bildanalyse Training für Wissenschaftler
+* Aufbereitung von Daten und Umgang mit Messartefakten (Dekonvolution, Ausbleichkorrektur)
+* Entwicklung von Deep Learning Modellen
+* Automatische Objektdetektion
+* Objektklassifizierung
+* Bildklassifizierung
+* Verarbeitung von großen Mengen an Bilddaten
+
+Bildanalyse Werkzeuge mit denen ich vertraut bin:
 
 * Python
 * ImageJ

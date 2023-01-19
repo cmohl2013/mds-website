@@ -1,0 +1,19 @@
+---
+layout: default-subsite
+---
+
+
+<div class="service-area py-5 py-md-8">
+    <div class="container">
+        <div class="row">
+            <ul class="list-group list-group-flush">
+                {% for project in site.data.projects %}
+                {% if project.lang == page.lang %}
+                {% include project-card.html %}
+                {% endif %}
+                {% endfor %}
+
+            </ul>
+        </div>
+    </div>
+</div>

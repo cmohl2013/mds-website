@@ -4,14 +4,25 @@
         <div class="row">
             <div class="col-md-10">
                 <div class="section-title mb-5">
+                    
+                    {% if page.lang == "en" %}
                     <span class="text-success">My professional background</span>
                     <h2>Experience</h2>
                     <div class="section-label my-2" markdown="1"></div>
+                    {% capture my_include %}{% include experience_text_en.md %}{% endcapture %}
+
+                    {% else %}
+                    <span class="text-success">Mein beruflicher Werdegang</span>
+                    <h2>Erfahrung</h2>
+                    <div class="section-label my-2" markdown="1"></div>
                     {% capture my_include %}{% include experience_text.md %}{% endcapture %}
+                    {% endif %}
+                   
+
                     <p>{{ my_include | markdownify }}</p>
                 </div>
             </div>
         </div>
-        {% include sections/timeline-section.html %}
+    {% include sections/timeline-section.html %}    
     </div>
 </div>

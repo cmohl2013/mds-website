@@ -4,9 +4,13 @@
         <div class="row">
             <div class="col-lg-6">
                 <div class="timeline-item my-3">
+                    {% if page.lang == "en" %}
                     <h2 class="mb-4">Work <span class="text-success">Experience</span></h2>
+                    {% else %}
+                    <h2 class="mb-4">Berufliche <span class="text-success">Erfahrung</span></h2>
+                    {% endif %}
                     {% for timeline in site.data.timelines %}
-                     {% if  timeline.type == 'Experience' %}
+                    {% if  timeline.type == 'Experience' and timeline.lang == page.lang %}
                         {% include timeline.html %}
                     {% endif %}
                     {% endfor %}
@@ -14,10 +18,14 @@
             </div>
             <div class="col-lg-6">
                 <div class="timeline-item my-3">
+                    {% if page.lang == "en" %}
                     <h2 class="mb-4">My <span class="text-success">Education</span></h2>
-
+                    {% else %}
+                    <h2 class="mb-4">Meine <span class="text-success">Ausbildung</span></h2>
+                    {% endif %}
+                    
                     {% for timeline in site.data.timelines %}
-                    {% if  timeline.type == 'Education' %}
+                    {% if  timeline.type == 'Education' and timeline.lang == page.lang %}
                         {% include timeline.html %}
                         {% endif %}
                     {% endfor %}
