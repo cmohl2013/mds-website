@@ -19,7 +19,17 @@ jobs:
         restore-keys: |
           ${{ runner.os }}-gems-
 
-    # Standard usage
+    # Build website
     - uses:  helaili/jekyll-action@v2
       with:
-        token: ${{ secrets.GITHUB_TOKEN }}      
+        token: ${{ secrets.GITHUB_TOKEN }}
+    
+    # Copy Website artifacts to server
+    - name: 📂 Sync files
+      uses: SamKirkland/FTP-Deploy-Action@4.3.3
+      with:
+        server: ${{ secrets.ftp_serveraddress }}
+        username: ${{ secrets.ftp_usename }}
+        password: ${{ secrets.ftp_password }}
+        local-dir: _site
+        server_dir: public_html    
