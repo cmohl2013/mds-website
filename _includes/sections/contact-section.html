@@ -3,11 +3,17 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-10 m-auto">
-
-                <div class="mb-5 text-center">
+                {% if page.lang == "en" %}
+                <div class="mb-5 text-left">
                     <h2>Contact</h2>
-                    <p>I am happy to get in touch with you if you have any questions or want to receive an offer.</p>
+                    <p>Contact me if you have any questions or would like to request an offer.</p>
                 </div>
+                {% else %}
+                <div class="mb-5 text-left">
+                    <h2>Kontakt</h2>
+                    <p>Nehmen Sie gerne Kontakt mit mir auf, wenn Sie Fragen haben oder ein Angebot einholen wollen.</p>
+                </div>
+                {% endif %}
                 {% include contact-form.html %}
 
             </div>

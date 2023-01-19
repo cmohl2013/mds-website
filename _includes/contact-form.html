@@ -2,24 +2,23 @@
     <div class="row">
         <div class="col-md-4">
             <div class="mb-3">
-                <input type="text" name="Name" class="form-control"
-                        placeholder="Name"> 
+                <input type="text" name="Name" class="form-control" placeholder="Name">
             </div>
         </div>
         <div class="col-md-4">
             <div class="mb-3">
-                <input type="text" name="Subject" class="form-control" placeholder="Subject">
+                <input type="text" name="Subject" class="form-control"
+                    placeholder="{% if page.lang == 'en' %}Subject{% else %}Betreff{% endif%}">
             </div>
         </div>
         <div class="col-md-4">
             <div class="mb-3">
-              <input type="email" name="Email" class="form-control"
-                        placeholder="Email"> 
+                <input type="email" name="Email" class="form-control" placeholder="Email">
             </div>
         </div>
         <div class="col-md-12">
             <div class="mb-4">
-                <textarea class="form-control" name="Message" rows="8" placeholder="Write Message"></textarea>
+                <textarea class="form-control" name="Message" rows="8" placeholder="{% if page.lang == 'en' %}Write Message{% else %}Nachricht{% endif%}"></textarea>
             </div>
         </div>
 
@@ -27,4 +26,3 @@
     <div class="text-center"><button type="submit" class="btn btn-outline-success">Send
             Message</button></div>
 </form>
-

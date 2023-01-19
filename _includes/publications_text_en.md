@@ -2,12 +2,14 @@
 
 
 
-#### Wissenschaftliche Artikel
+
+
+#### Scientific Articles
 
 See my  **[ORCID profile](https://orcid.org/0000-0002-0829-5101)** for a full list of publications.
 
 
-#### Vorträge (Auswahl)
+#### Talks (selection)
 
 * Introducing YAPiC: An open source tool for biologists to perform complex image segmentation with deep learning. [Neubias Conference, Bordeaux, France, 2020](http://eubias.org/NEUBIAS/neubias2020-conference/bordeaux-2020/)
 

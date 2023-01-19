@@ -11,10 +11,10 @@
 title: "Möhl Data Services"
 #email: "themeix@gmail.com"
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://moehl-data-services.de" # the base hostname & protocol for your site, e.g. http://example.com
 logo: /assets/images/moehl-data-services-logo.png
-description: "Christoph Möhl: Freelance Data Scientist, Python Developer, Data Engineer"
-keywords: "freelance, python, consulting, data engineer, Bonn, Germany, Deuschland, "
+description: "Christoph Möhl: Data Scientist, Python Entwickler, Data Engineer"
+keywords: "freelance, Python, consulting, Data Engineer, Beratung, Bildanalyse, Imageprocessing, Image Analysis, Bonn, Köln, Germany, Deuschland, "
 #mailclimp: "https://themeix.us16.list-manage.com/subscribe/post?u=307862c135e4548eecf86f389&amp;id=4784863884"
 #facebook: https://facebook.com/themeix
 #instagram: https://instagram.com/themeix

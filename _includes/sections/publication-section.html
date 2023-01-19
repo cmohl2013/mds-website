@@ -4,10 +4,27 @@
         <div class="row">
             <div class="col-md-10">
                 <div class="section-title mb-5">
-                    <span class="text-success">Scientific Record</span>
+                    {% if page.lang == "en" %}
+                    
+                    <span class="text-success">Articles and Talks</span>
                     <h2>Publications</h2>
                     <div class="section-label my-2" markdown="1"></div>
+                    {% capture my_include %}{% include publications_text_en.md %}{% endcapture %}
+                    
+                    {% else %}
+
+                    <span class="text-success">Artikel und Vorträge</span>
+                    <h2>Publikationen</h2>
+                    <div class="section-label my-2" markdown="1"></div>
                     {% capture my_include %}{% include publications_text.md %}{% endcapture %}
+
+                    {% endif %}
+                    
+                    <p>
+                    <blockquote class="embedly-card align" data-card-align="left"><h4><a href="https://towardsdatascience.com/context-enriched-data-the-secret-superpower-for-your-deep-learning-model-549826a5fb3d">Context-Enriched Data: The Secret Superpower for Your Deep Learning Model</a></h4><p>In this post, I would like to share with you my approach to optimize input data for deep learning models. I have successfully applied it in my work as a data scientist and data engineer. On the basis of practical examples you will learn how to enrich model input data with contextual information.</p></blockquote>
+                    <script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
+                    </p>
+
                     <p>{{ my_include | markdownify }}</p>
                 </div>
             </div>
