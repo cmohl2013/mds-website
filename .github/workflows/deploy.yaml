@@ -31,5 +31,5 @@ jobs:
         server: ${{ secrets.ftp_serveraddress }}
         username: ${{ secrets.ftp_username }}
         password: ${{ secrets.ftp_password }}
-        local-dir: mds-website/_site/
+        local-dir: ${{ GITHUB_WORKSPACE }}/_site/
         server-dir: public_html/    
