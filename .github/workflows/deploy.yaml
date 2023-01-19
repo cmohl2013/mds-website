@@ -28,16 +28,13 @@ jobs:
 
     - name: "listdir"
       run: ls ${{ vars.GITHUB_WORKSPACE }}
+    
+    - name: Install lftp
+      run: sudo apt install lftp
 
-    # Copy Website artifacts to server
-    - name: 📂 Sync files
-      uses: SamKirkland/FTP-Deploy-Action@4.3.3
-      with:
-        server: ftp://www352.your-server.de
-        username: moehlf
-        password: ${{ secrets.ftp_password }}
-        local-dir: ./_site/
-        server-dir: public_html/ 
+    - name: download userfiles
+      run: lftp -c "set ssl:verify-certificate false; open -u ${{ secrets.FTP_USERNAME }},${{ secrets.FTP_PASSWORD }} ${{ secrets.FTP_HOST }}; mirror -R _site public_html"
 
-    - name: "error"
-      run: cat ./_site/.ftp-deploy-sync-state.json
+    
+
+    
