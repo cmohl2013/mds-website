@@ -19,9 +19,19 @@ jobs:
         restore-keys: |
           ${{ runner.os }}-gems-
 
+    - run: mkdir ./downloads
+    
+    - name: render pdf download artifacts
+      uses: docker://pandoc/latex:2.9
+      with:
+        args: --output ./downloads/agb_moehl_data_services.pdf agb_moehl_data_services.md
+
+      
+    
     # Build website
     - name: build website artifacts
       uses:  jerryjvl/jekyll-build-action@v1
+      with: 
      
     - name: Install lftp
       run: sudo apt install lftp

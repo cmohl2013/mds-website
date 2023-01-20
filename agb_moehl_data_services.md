@@ -9,9 +9,9 @@ layout: service
 ---
 
 
-## Allgemeine Vertragsbedingungen
+# Allgemeine Vertragsbedingungen
 
-### Vergütung, Zahlung, Leistungsschutz, Termine
+## Vergütung, Zahlung, Leistungsschutz, Termine
 
 1. Soweit nichts anderes vereinbart ist, wird die Vergütung nach Aufwand zu den bei      Vertragsschluss allgemein gültigen Preisen des Anbieters berechnet. Vergütungen sind grundsätzlich Netto-Preise zuzüglich gesetzlich anfallender Umsatzsteuer. Der Anbieter kann monatlich abrechnen. Werden Leistungen nach Aufwand vergütet, dokumentiert der Anbieter die Art und Dauer der Tätigkeiten und übermittelt diese Dokumentation mit der Rechnung.
 
@@ -37,7 +37,7 @@ layout: service
 4. Feste Leistungstermine sollen ausschließlich ausdrücklich in dokumentierter Form vereinbart werden. Die Vereinbarung eines festen Leistungstermins steht unter dem Vorbehalt, dass der Anbieter die Leistungen seiner jeweiligen Vorlieferanten rechtzeitig und vertragsgemäß erhält.
 
 
-### Zusammenarbeit, Mitwirkungspflichten, Vertraulichkeit
+## Zusammenarbeit, Mitwirkungspflichten, Vertraulichkeit
 
 1. Kunde und Anbieter benennen jeweils einen verantwortlichen Ansprechpartner. Die Kommunikation zwischen dem Kunden und dem Anbieter erfolgt, soweit nichts anderes vereinbart ist, über diese Ansprechpartner. Die Ansprechpartner haben alle mit der Vertragsdurchführung zusammenhängenden Entscheidungen unverzüglich herbeizuführen. Die Entscheidungen sind verbindlich zu dokumentieren.
 
@@ -64,7 +64,7 @@ nicht möglich ist, verlängern sich davon betroffene Fristen angemessen; für w
 1. Den Vertragspartnern ist bekannt, dass eine elektronische und unverschlüsselte Kommunikation(z.B. per EMail) mit Sicherheitsrisiken behaftet ist. Bei dieser Art der Kommunikation werden sie daher keine Ansprüche geltend machen, die durch das Fehlen einer Verschlüsselung begründet sind, außer soweit zuvor eine Verschlüsselung vereinbartworden ist.
 
 
-### Störungen bei der Leistungserbringung
+## Störungen bei der Leistungserbringung
 
 1. Wenn eine Ursache, die der Anbieter nicht zu vertreten hat, einschließlich Streik oder Aussperrung, die Termineinhaltung beeinträchtigt („Störung“), verschieben sich die Termine um die Dauer der Störung, erforderlichenfalls einschließlich einer angemessenen Wiederanlaufphase. Ein Vertragspartner hat den anderen Vertragspartner über die Ursache einer in seinem Bereich aufgetretenen Störung und die Dauer der Verschiebung unverzüglich zu unterrichten.
 
@@ -77,7 +77,7 @@ nicht möglich ist, verlängern sich davon betroffene Fristen angemessen; für w
 
 1. Bei einer Verzögerung der Leistung hat der Kunde im Rahmen der gesetzlichen Bestimmungen ein Rücktrittsrecht nur, wenn die Verzögerung vom Anbieter zu vertreten ist. Macht der Kunde wegen der Verzögerung berechtigt Schadens oder Aufwendungsersatz statt der Leistung geltend, so ist er berechtigt, für jede vollendete Woche der Verzögerung 1 % des Preises für den Teil der vertraglichen Leistung zu verlangen, der auf Grund der Verzögerung nicht genutzt werden kann, jedoch insgesamt höchstens 10 % dieses Preises; bei Dauerschuldverhältnissen bezogen auf die Vergütung für die jeweils betroffenen Leistungen für das volle Kalenderjahr. Ergänzend und vorrangig gilt ein bei Vertragsabschluss vereinbarter Prozentsatz der bei Vertragsabschluss vereinbarten Vergütung.
 
-### Sachmängel und Aufwendungsersatz
+## Sachmängel und Aufwendungsersatz
 
 1. 
    Der Anbieter leistet Gewähr für die vertraglich geschuldete Beschaffenheit der Leistungen. Für eine nur unerhebliche Abweichung der Leistungen des Anbieters von der vertragsgemäßen Beschaffenheit bestehen keine Ansprüche wegen Sachmängeln.
@@ -105,7 +105,7 @@ nicht möglich ist, verlängern sich davon betroffene Fristen angemessen; für w
        * eine gemeldete Störung nicht reproduzierbar oder anderweitig durch den Kunden als Mangel nachweisbar ist, oder
        * zusätzlicher Aufwand wegen nicht ordnungsgemäßer Erfüllung der Pflichten des Kunden (siehe auch Ziffern 2.2, 2.3, 2.4 und 5.2) anfällt.
 
-### Rechtsmängel
+## Rechtsmängel
 
 1. 
    Für Verletzungen von Rechten Dritter durch seine Leistung haftet der Anbieter nur, soweit die Leistung vertragsgemäß und insbesondere in der vertraglich vereinbarten, sonst in der vorgesehenen Einsatzumgebung unverändert eingesetzt wird.
@@ -128,7 +128,7 @@ nicht möglich ist, verlängern sich davon betroffene Fristen angemessen; für w
 1. Ansprüche des Kunden wegen Rechtsmängeln verjähren entsprechend Ziffer 4.2. Für Schadensersatz und Aufwendungsersatzansprüche des Kunden gilt Ziffer 6 ergänzend, für zusätzlichen Aufwand des Anbieters gilt Ziffer 4.3 entsprechend.
 
 
-### Allgemeine Haftung des Anbieters
+## Allgemeine Haftung des Anbieters
 
 1. Der Anbieter haftet dem Kunden stets 
    * für die von ihm sowie seinen gesetzlichen Vertretern oder Erfüllungsgehilfen vorsätzlich oder grob fahrlässig verursachten Schäden, 
@@ -150,12 +150,12 @@ nicht möglich ist, verlängern sich davon betroffene Fristen angemessen; für w
 
 3. Für Aufwendungsersatzansprüche und sonstige Haftungsansprüche des Kunden gegen den Anbieter gelten Ziffern 6.1 bis 6.4 entsprechend. Ziffern 3.3 und 3.4 bleiben unberührt.
 
-### Datenschutz
+## Datenschutz
 
 Der Kunde wird mit dem Anbieter datenschutzrechtlich notwendige Vereinbarungen für den Umgang mit
 personenbezogenen Daten abschließen.
 
-### Sonstiges
+## Sonstiges
 
 1. Der Kunde wird für die Lieferungen oder Leistungen anzuwendende Import-und Export-Vorschriften eigenverantwortlich beachten, insbesondere solche der USA. Bei grenzüberschreitender Lieferung oder Leistung trägt der Kunde anfallende Zölle, Gebühren und sonstige Abgaben. Der Kunde wird gesetzliche oder behördliche Verfahren im Zusammenhang mit grenzüberschreitenden Lieferungen oder Leistungen eigenverantwortlich abwickeln, außer soweit anderes ausdrücklich vereinbart ist.
 
@@ -174,14 +174,14 @@ personenbezogenen Daten abschließen.
 
 
 
-## Vertragsbedingungen für die Erbringung von Dienstleistungen
+# Vertragsbedingungen für die Erbringung von Dienstleistungen
 
-### Vertragsgegenstand
+## Vertragsgegenstand
 
 1. Der Anbieter erbringt die Dienstleistung gemäß der im Vertrag und nachfolgend vereinbarten Bedingungen gegen die vertraglich vereinbarte Vergütung. Die Projekt- und Erfolgsverantwortung trägt der Kunde. Der Anbieter erbringt die Dienstleistung nach den Grundsätzen der ordnungsgemäßen Berufsausübung. 
 1. Der Vertragsgegenstand kann in einer einmaligen, auch in Teilen zu erbringenden Leistung bestehen oder auf Dauer angelegt sein.
 
-### Durchführung der Dienstleistung
+## Durchführung der Dienstleistung
 
 1.  Ort der Leistungserbringung ist der Sitz des Anbieters, soweit nichts anderes vereinbart ist. 
 2.   Der Anbieter erbringt die Leistung durch geeignete Mitarbeiter. Ein Anspruch des Kunden auf die Leistungserbringung durch bestimmte Mitarbeiter des Anbieters besteht nicht. 
@@ -189,14 +189,14 @@ personenbezogenen Daten abschließen.
 4.  Der Kunde ist gegenüber den mit der Leistungserbringung befassten Mitarbeitern des Anbieters nicht weisungsbefugt. 
 5.  Sofern der Anbieter die Ergebnisse der Dienstleistung schriftlich darzustellen hat, ist nur die schriftliche Darstellung maßgebend.
 
-### Mitwirkungspflichten
+## Mitwirkungspflichten
 
 1. Der Kunde trägt Sorge dafür, dass der von ihm benannte Ansprechpartner dem Anbieter die für die Erbringung der Dienstleistung notwendigen Unterlagen, Informationen und Daten vollständig, richtig, rechtzeitig und kostenfrei zur Verfügung stellt, soweit nicht vom Anbieter geschuldet. Darüber hinaus sorgt der Kunde für deren Aktualisierung.Der Anbieter darf von der Vollständigkeit und Richtigkeit dieser Unterlagen, Informationen und Daten ausgehen, außer soweit er erkennt oder erkennen muss, dass diese unvollständig oder unrichtig sind.
 2.  Der Kunde hat dazu die Dienstleistungserbringung durch den Anbieter zu beobachten.
 
 
 
-### Nutzungsrechte
+## Nutzungsrechte
 
 1. An den Dienstleistungsergebnissen, die der Anbieter im Rahmen des Vertrages erbracht und dem Kunden übergeben hat, räumt er dem Kunden das nicht ausschließliche und nicht übertragbare Recht ein, diese bei sich für eigene interne Zwecke im Rahmen des vertraglich vorausgesetzten Einsatzwecks auf Dauer zu nutzen, soweit nichts anderes vereinbart ist.
 
@@ -205,7 +205,7 @@ personenbezogenen Daten abschließen.
 1. Der Anbieter kann dem Kunden eingeräumte Rechte zur Nutzung entziehen, wenn der Kunde nicht unerheblich gegen Einsatzbeschränkungen oder sonstige Regelungen zum Schutz vor unberechtigter Nutzung verstößt.Der Anbieter hat dem Kunden vorher eine Nachfrist zur Abhilfe zu setzen. Im Wiederholungsfalle und bei besonderen Umständen, die unter Abwägung der beiderseitigen Interessen den sofortigen Entzug rechtfertigen, kann der Anbieter die Rechte auch ohne Fristsetzung entziehen. Der Kunde hat dem Anbieter die Einstellung der Nutzung nach einem Entzug der Nutzungsrechte schriftlich zu bestätigen. Der Anbieter wird dem Kunden die Rechte zur Nutzung wieder einräumen, nachdem der Kunde schriftlich dargelegt und versichert hat, dass durch seine Nutzung keinerlei Verstöße gegen die Rechte des Anbieters mehr vorliegen sowie vorherige Verstöße und deren Folgen beseitigt sind.
 
 
-### Laufzeit
+## Laufzeit
 
 1. Ist der Vertrag auf unbestimmte Dauer geschlossen, kann er mit einer Frist von 3 Monaten zum Ende eines Kalenderjahres gekündigt werden. Erstmals möglich ist diese Kündigung zum Ablauf des Kalenderjahres, das auf den Vertragsabschluss folgt. Eine vereinbarte Mindestlaufzeit bleibt von diesem Kündigungsrecht unberührt. 
 
@@ -215,7 +215,7 @@ personenbezogenen Daten abschließen.
 
 2. Kündigungserklärungen sind nur schriftlich wirksam. 5.4 Ein Rücktritt vom Vertrag ist ausgeschlossen.
 
-### Vergütung
+## Vergütung
 
 1. Soweit nichts anderes vereinbart ist, kann der Anbieter die Vergütung frühestens 12 Monate nach Vertragsschluss erhöhen, wenn die erhöhte Vergütung dem aktuellen Listenpreis des Anbieters entspricht. Weitere Erhöhungen können frühestens 12 Monate nach Wirksamwerden einer vorangegangenen Erhöhung erfolgen. Eine Erhöhung wird 3 Monate nach Ankündigung wirksam.
     
@@ -227,7 +227,71 @@ personenbezogenen Daten abschließen.
 
 1. Der Anbieter kann Vergütung seines Aufwands verlangen, soweit zusätzlicher Aufwand wegen nicht ordnungsgemäßer Erfüllung der Pflichten des Kunden (siehe Ziffer 3) anfällt.
 
-### Leistungsstörungen
+## Leistungsstörungen
+
+1. Wird die Dienstleistung nicht vertragsgemäß erbracht und hat der Anbieter dies zu vertreten (Leistungsstörung), so ist er verpflichtet, die Dienstleistung ganz oder in Teilen ohne Mehrkosten für den Kunden innerhalb angemessener Frist vertragsgemäß zu erbringen, es sei denn, dies ist nur mit unverhältnismäßigem Aufwand möglich. 
+    Diese Pflicht des Anbieters besteht nur, wenn der Kunde die Leistungsstörung schriftlich und unverzüglich, spätestens aber bis zum Ablauf von zwei Wochen nach Kenntnis rügt, außer soweit anderes vereinbart ist.
+1. Für etwaige darüber hinausgehende Aufwendungs- und Schadensersatzansprüche gilt Ziffer 6 der Allgemeinen Vertragsbedingungen Möhl Data Services.
+
+
+
+
+# Vertragsbedingungen für die Erbringung von Dienstleistungen
+
+        
+
+## Vertragsgegenstand
+
+1. Der Anbieter erbringt die Dienstleistung gemäß der im Vertrag und nachfolgend vereinbarten Bedingungen gegen die vertraglich vereinbarte Vergütung. Die Projekt- und Erfolgsverantwortung trägt der Kunde. Der Anbieter erbringt die Dienstleistung nach den Grundsätzen der ordnungsgemäßen Berufsausübung. 
+1. Der Vertragsgegenstand kann in einer einmaligen, auch in Teilen zu erbringenden Leistung bestehen oder auf Dauer angelegt sein.
+
+# Durchführung der Dienstleistung
+
+1.  Ort der Leistungserbringung ist der Sitz des Anbieters, soweit nichts anderes vereinbart ist. 
+2.   Der Anbieter erbringt die Leistung durch geeignete Mitarbeiter. Ein Anspruch des Kunden auf die Leistungserbringung durch bestimmte Mitarbeiter des Anbieters besteht nicht. 
+3.  Der Anbieter bestimmt die Art und Weise der Leistungserbringung, soweit nichts anderes vereinbart ist. 
+4.  Der Kunde ist gegenüber den mit der Leistungserbringung befassten Mitarbeitern des Anbieters nicht weisungsbefugt. 
+5.  Sofern der Anbieter die Ergebnisse der Dienstleistung schriftlich darzustellen hat, ist nur die schriftliche Darstellung maßgebend.
+
+## Mitwirkungspflichten
+
+1. Der Kunde trägt Sorge dafür, dass der von ihm benannte Ansprechpartner dem Anbieter die für die Erbringung der Dienstleistung notwendigen Unterlagen, Informationen und Daten vollständig, richtig, rechtzeitig und kostenfrei zur Verfügung stellt, soweit nicht vom Anbieter geschuldet. Darüber hinaus sorgt der Kunde für deren Aktualisierung.Der Anbieter darf von der Vollständigkeit und Richtigkeit dieser Unterlagen, Informationen und Daten ausgehen, außer soweit er erkennt oder erkennen muss, dass diese unvollständig oder unrichtig sind.
+2.  Der Kunde hat dazu die Dienstleistungserbringung durch den Anbieter zu beobachten.
+
+
+
+## Nutzungsrechte
+
+1. An den Dienstleistungsergebnissen, die der Anbieter im Rahmen des Vertrages erbracht und dem Kunden übergeben hat, räumt er dem Kunden das nicht ausschließliche und nicht übertragbare Recht ein, diese bei sich für eigene interne Zwecke im Rahmen des vertraglich vorausgesetzten Einsatzwecks auf Dauer zu nutzen, soweit nichts anderes vereinbart ist.
+
+1. Im Übrigen verbleiben alle Rechte beim Anbieter.
+
+1. Der Anbieter kann dem Kunden eingeräumte Rechte zur Nutzung entziehen, wenn der Kunde nicht unerheblich gegen Einsatzbeschränkungen oder sonstige Regelungen zum Schutz vor unberechtigter Nutzung verstößt.Der Anbieter hat dem Kunden vorher eine Nachfrist zur Abhilfe zu setzen. Im Wiederholungsfalle und bei besonderen Umständen, die unter Abwägung der beiderseitigen Interessen den sofortigen Entzug rechtfertigen, kann der Anbieter die Rechte auch ohne Fristsetzung entziehen. Der Kunde hat dem Anbieter die Einstellung der Nutzung nach einem Entzug der Nutzungsrechte schriftlich zu bestätigen. Der Anbieter wird dem Kunden die Rechte zur Nutzung wieder einräumen, nachdem der Kunde schriftlich dargelegt und versichert hat, dass durch seine Nutzung keinerlei Verstöße gegen die Rechte des Anbieters mehr vorliegen sowie vorherige Verstöße und deren Folgen beseitigt sind.
+
+
+## Laufzeit
+
+1. Ist der Vertrag auf unbestimmte Dauer geschlossen, kann er mit einer Frist von 3 Monaten zum Ende eines Kalenderjahres gekündigt werden. Erstmals möglich ist diese Kündigung zum Ablauf des Kalenderjahres, das auf den Vertragsabschluss folgt. Eine vereinbarte Mindestlaufzeit bleibt von diesem Kündigungsrecht unberührt. 
+
+   Dies gilt jeweils nicht, soweit Abweichendes vereinbart ist. 
+
+1. Das Recht zur außerordentlichen Kündigung aus wichtigem Grund bleibt unberührt. 
+
+2. Kündigungserklärungen sind nur schriftlich wirksam. 5.4 Ein Rücktritt vom Vertrag ist ausgeschlossen.
+
+## Vergütung
+
+1. Soweit nichts anderes vereinbart ist, kann der Anbieter die Vergütung frühestens 12 Monate nach Vertragsschluss erhöhen, wenn die erhöhte Vergütung dem aktuellen Listenpreis des Anbieters entspricht. Weitere Erhöhungen können frühestens 12 Monate nach Wirksamwerden einer vorangegangenen Erhöhung erfolgen. Eine Erhöhung wird 3 Monate nach Ankündigung wirksam.
+    
+    Der Kunde hat ein Kündigungsrecht, wenn sich die Vergütungssätze um mehr als fünf Prozent erhöhen. Der Kunde kann innerhalb eines Monats ab Zugang der Ankündigung zum Zeitpunkt der Wirksamkeit einer solchen Erhöhung kündigen.
+
+1. Vereinbarte Aufwandsnachweise gelten als genehmigt, soweit der Kunde nicht innerhalb von 21 Tagen nach Erhalt detailliert schriftlich widerspricht und der Anbieter im Aufwandsnachweis auf die Genehmigungsfiktion hingewiesen hat. 
+
+1. Reisekosten und -spesen sowie sonstige Aufwendungen werden nach der Preisliste des Anbieters erstattet, soweit nichts anderes vereinbart ist. Reisezeit gilt als Arbeitszeit.
+
+1. Der Anbieter kann Vergütung seines Aufwands verlangen, soweit zusätzlicher Aufwand wegen nicht ordnungsgemäßer Erfüllung der Pflichten des Kunden (siehe Ziffer 3) anfällt.
+
+## Leistungsstörungen
 
 1. Wird die Dienstleistung nicht vertragsgemäß erbracht und hat der Anbieter dies zu vertreten (Leistungsstörung), so ist er verpflichtet, die Dienstleistung ganz oder in Teilen ohne Mehrkosten für den Kunden innerhalb angemessener Frist vertragsgemäß zu erbringen, es sei denn, dies ist nur mit unverhältnismäßigem Aufwand möglich. 
     Diese Pflicht des Anbieters besteht nur, wenn der Kunde die Leistungsstörung schriftlich und unverzüglich, spätestens aber bis zum Ablauf von zwei Wochen nach Kenntnis rügt, außer soweit anderes vereinbart ist.
@@ -236,6 +300,14 @@ personenbezogenen Daten abschließen.
 
 
         
+
+
+
+
+
+
+
+
 
 
 
