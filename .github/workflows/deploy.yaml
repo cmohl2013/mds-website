@@ -32,7 +32,16 @@ jobs:
     # Build website
     - name: build website artifacts
       uses:  jerryjvl/jekyll-build-action@v1
+
+    - name: Install pdf writer
+      run: sudo apt install wkhtmltopdf
+    
+    - name: render CV
+      run: wkhtmltopdf --page-size A4 --margin-bottom 20mm --margin-top 20mm --margin-left 20mm --margin-right 20mm ./_site/profile_handout.html ./downloads/cv.pdf   
      
+    - name: build website artifacts
+      uses:  jerryjvl/jekyll-build-action@v1
+ 
     - name: Install lftp
       run: sudo apt install lftp
 

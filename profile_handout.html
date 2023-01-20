@@ -1,0 +1,37 @@
+---
+layout: default_printout
+lang: de
+---
+
+{% for content in site.data.hero %}
+{% if content.lang == page.lang %}
+<div id="home" class="banner-area py-5 py-lg-8 mvh-100 d-flex align-items-center">
+    <div class="container">
+        <div class="row d-flex align-items-center">
+            <div class="col-md-8">
+                <div class="banner-content mb-md-0 mb-4 text-center text-md-start">
+                    
+
+                    <p class="fw-bold text-success">{{content.profession}}</p>
+
+
+                    <h1 class="display-4 my-3">{{content.name}}</h1>
+                    {% capture my_include %}{% include {{content.description_filename}} %}{% endcapture %}
+                    <p class="mb-0">{{ my_include | markdownify }}</p>
+                    
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div data-aos="zoom-in-up" data-aos-delay="1500ms" class="banner-image text-center"><img
+                        src="http://moehl-data-services.de/assets/images/banner-image.jpeg" alt="image">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endif %}
+{% endfor %}
+
+{% include sections/experience-section.html %}
+{% include sections/skills-section.html %}
+
