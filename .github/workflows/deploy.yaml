@@ -31,7 +31,6 @@ jobs:
     # Build website
     - name: build website artifacts
       uses:  jerryjvl/jekyll-build-action@v1
-      with: 
      
     - name: Install lftp
       run: sudo apt install lftp
