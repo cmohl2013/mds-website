@@ -19,6 +19,9 @@ jobs:
         restore-keys: |
           ${{ runner.os }}-gems-
     
+    - name: create downloads folder
+      run: mkdir ./downloads
+    
     - name: render pdf download artifacts
       uses: docker://pandoc/latex:2.9
       with:
