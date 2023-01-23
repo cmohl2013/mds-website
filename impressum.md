@@ -1,6 +1,7 @@
 ---
 layout: default-subsite
 title: Impressum
+permalink: /impressum
 ---
 
 
