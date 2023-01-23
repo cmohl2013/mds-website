@@ -1,19 +1,19 @@
 ---
 layout: default-subsite
 title: Impressum
-permalink: /impressum
+permalink: /impressum/
+lang: de
 ---
 
 
 Angaben gemäß § 5 TMG
 
-{{ site.data.contact.name }}
+{{ site.data.contact.name }}  
 {{ site.data.contact.address }}
 
 Vertreten durch:
 {{ site.data.contact.name }}
 
-Kontakt:
 Telefon: {{ site.data.contact.phone }}
 
 Umsatzsteuer-Identifikationsnummer gemäß §27a Umsatzsteuergesetz: DE355517711
