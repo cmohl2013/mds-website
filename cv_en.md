@@ -51,6 +51,17 @@ lang: en
 {% endif %}
 {% endfor %}
 
+### Certificates
+
+{% for certificate in site.data.certificates %}
+* {{ certificate.name }}
+
+   <img src="{{ certificate.logo }}" alt="drawing" width="50"/>
+   
+   More info: [{{ certificate.website_url }}]({{ certificate.website_url }})
+{% endfor %}
+
+
 
 ## Projects
 
