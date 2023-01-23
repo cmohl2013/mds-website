@@ -15,7 +15,7 @@
                     <h1 class="display-4 my-3">{{content.name}}</h1>
                     {% capture my_include %}{% include {{content.description_filename}} %}{% endcapture %}
                     <p class="mb-0">{{ my_include | markdownify }}</p>
-                    <a href={{content.download_link_cv}} class="btn btn-success mt-4">{{content.cv_download_btn_caption}}<i
+                    <a href="{{content.download_link_cv | relative_url}}" class="btn btn-success mt-4">{{content.cv_download_btn_caption}}<i
                             class="fas fa-download ms-2"></i></a>
                     <a href={{content.contact_link}} class="btn btn-success mt-4">{{content.contact_btn_caption}}<i
                             class="fas fa-envelope ms-2"></i></a>
