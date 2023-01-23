@@ -3,11 +3,11 @@ lang: en
 ---
 
 ```
-{{ site.data.contact.name}}
-{{ site.data.contact.address}}
+{{ site.data.contact.name }}
+{{ site.data.contact.address }}
 
-{{ site.data.contact.phone}}
-{{ site.data.contact.email}}
+{{ site.data.contact.phone }}
+{{ site.data.contact.email }}
 ```
 {% for content in site.data.hero %}
 {% if content.lang == page.lang %}
