@@ -6,15 +6,14 @@ title: Impressum
 
 Angaben gemäß § 5 TMG
 
-Christoph Möhl
-Dorfstraße 58 A
-53125 Bonn
+{{ site.data.contact.name }}
+{{ site.data.contact.address }}
 
 Vertreten durch:
-Christoph Möhl
+{{ site.data.contact.name }}
 
 Kontakt:
-Telefon: 01577-4407495
+Telefon: {{ site.data.contact.phone }}
 
 Umsatzsteuer-Identifikationsnummer gemäß §27a Umsatzsteuergesetz: DE355517711
 

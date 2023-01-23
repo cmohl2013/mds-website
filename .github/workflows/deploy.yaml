@@ -22,23 +22,28 @@ jobs:
     - name: create downloads folder
       run: mkdir ./downloads
     
-    - name: render pdf download artifacts
+    - name: render agb pdf download pdf
       uses: docker://pandoc/latex:2.9
       with:
         args: --output ./downloads/agb_moehl_data_services.pdf agb_moehl_data_services.md
 
       
     
-    # Build website
+    # build website
     - name: build website artifacts
       uses:  jerryjvl/jekyll-build-action@v1
 
-    - name: Install pdf writer
-      run: sudo apt install wkhtmltopdf
-    
-    - name: render CV
-      run: wkhtmltopdf --page-size A4 --margin-bottom 20mm --margin-top 20mm --margin-left 20mm --margin-right 20mm ./_site/profile_handout.html ./downloads/cv.pdf   
-     
+    - name: render german cv download pdf
+      uses: docker://pandoc/latex:2.9
+      with:
+        args: --output ./downloads/cv_moehl_de.pdf ./_site/cv_de.html
+
+    - name: render international cv download pdf
+      uses: docker://pandoc/latex:2.9
+      with:
+        args: --output ./downloads/cv_moehl_en.pdf ./_site/cv_en.html    
+  
+    # build website with all download artifacts
     - name: build website artifacts
       uses:  jerryjvl/jekyll-build-action@v1
  

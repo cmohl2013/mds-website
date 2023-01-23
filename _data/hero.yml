@@ -3,7 +3,7 @@
   description_filename: "hero_text_en.md"
   cv_download_btn_caption: Download CV
   contact_btn_caption: Contact Me
-  download_link_cv: "#"
+  download_link_cv: "/downloads/cv_moehl_en.pdf"
   contact_link: "#contact"
   banner_image_source: assets/images/banner-image.jpeg
   lang: en
@@ -13,7 +13,7 @@
   description_filename: "hero_text_de.md"
   cv_download_btn_caption: Lebenslauf
   contact_btn_caption: Kontakt
-  download_link_cv: "#"
+  download_link_cv: "/downloads/cv_moehl_de.pdf"
   contact_link: "#contact"
   banner_image_source: assets/images/banner-image.jpeg
   lang: de

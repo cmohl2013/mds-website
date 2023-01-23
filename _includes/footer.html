@@ -7,8 +7,8 @@
           <div class="footer-widget my-3">
             <a href="{{'/' | relative_url }}" class="footer-logo mb-4"><img
                 src="{{'/assets/images/moehl-data-services-logo.png' | relative_url}}" alt="{{site.title}}"></a>
-            <p class="m-0">Dorfstraße 58 A, 53125 Bonn, Germany</p>
-            <p class="m-0">+123 456 7890</p>
+            <p class="m-0">{{ site.data.contact.address }}</p>
+            <p class="m-0">{{ site.data.contact.phone }}</p>
           </div>
         </div>
         <div class="col-md-6 col-lg-3">
@@ -32,7 +32,7 @@
         <div class="col-md-6">
           <p class="copyright-text my-2">©<script>
               document.write(new Date().getFullYear())
-            </script> Möhl Data Services</p>
+            </script> {{ site.data.contact.company_name }}</p>
         </div>
         <div class="col-md-6">
           <ul class="social-share-link my-2 list-inline text-md-end">

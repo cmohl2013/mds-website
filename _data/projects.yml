@@ -146,9 +146,8 @@
 
 - title: Data Engineer / Projektleitung
   institute: Forschungseinrichtung
-  description: >
-    Konzeption und Implementierung einer Postgres Datenbank zum Datenmanagement
-    einer Automationsanlage.
+  description: Konzeption und Implementierung einer Postgres Datenbank zum Datenmanagement
+    einer Automationsanlage
   description_long: >
     Eine Automationsanlage produziert Sensordaten verschiedener Art, die zusammen mit diversen
     Metadaten in mathematische Vorhersagemodelle eingespeist werden. Messdaten und
@@ -354,8 +353,7 @@
   lang: en
 
 - title: Python Entwickler, DevOps
-  description: >
-    Entwicklung einer parallelisierten Bildanalyse-Pipeline zur Verarbeitung massiver Bilddaten eines automatisierten Mikroskops.
+  description: Entwicklung einer parallelisierten Bildanalyse-Pipeline zur Verarbeitung massiver Bilddaten eines automatisierten Mikroskops.
   description_long: >
     Eine Automationsanlage innerhalb eines pharmazeutischen Labors produziert täglich Bilddaten
     im Terabyte Bereich. Auf Gundlage der CellProfiler software wurde eine Objekterkennung und
