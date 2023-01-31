@@ -19,6 +19,16 @@ During my scientific carreer and my position as *Leader of Image and Data Analys
 * classification of images
 * handling processing of large amounts of image data
 
+
+I have strong experience in the analysis of biomedical image data, such as:
+
+* fluorescence microscopy
+* time series data
+* histology, quantitative histology
+* MRI and CT data
+* electron microscopy
+
+
 Tools for image processing:
 
 * Python
