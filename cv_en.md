@@ -8,6 +8,7 @@ lang: en
 
 {{ site.data.contact.phone }}
 {{ site.data.contact.email }}
+{{ site.data.contact.website }}
 ```
 {% for content in site.data.hero %}
 {% if content.lang == page.lang %}
