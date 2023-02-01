@@ -12,7 +12,7 @@ lang: en
 ```
 {% for content in site.data.hero %}
 {% if content.lang == page.lang %}
-<img src="{{ content.banner_image_source }}" alt="drawing" width="100"/>
+<img src="{{ content.banner_image_source }}" alt="drawing"  width="350"/>
 # {{content.name}} 
 ## {{content.profession}}
 

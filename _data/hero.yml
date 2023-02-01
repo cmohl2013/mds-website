@@ -5,7 +5,7 @@
   contact_btn_caption: Contact Me
   download_link_cv: "/downloads/cv_moehl_en.pdf"
   contact_link: "/#contact"
-  banner_image_source: assets/images/banner-image.jpeg
+  banner_image_source: assets/images/banner-image.jpg
   lang: en
 
 - profession: "Data Scientist - Data Engineer - Python Entwickler"
@@ -15,5 +15,5 @@
   contact_btn_caption: Kontakt
   download_link_cv: "/downloads/cv_moehl_de.pdf"
   contact_link: "/#contact"
-  banner_image_source: assets/images/banner-image.jpeg
+  banner_image_source: assets/images/banner-image.jpg
   lang: de
