@@ -28,7 +28,7 @@
   lang: en
 
 - title: Python Entwickler / Data Engineer
-  description: Frontend and Backend Entwicklung einr Business Intelligence Web App.
+  description: Frontend und Backend Entwicklung einr Business Intelligence Web App.
   institute: DekaBank
   tools: 
     - Python
@@ -255,7 +255,7 @@
 - title: Python Entwickler / Projektleitung / Experte Bildverarbeitung
   description: Entwicklung von YAPiC einer Open Source Software zur Analyse von biomedizinischen Bilddaten mit Hilfe von Deep Learning.
   tasks:
-    - Projectmanagement
+    - Projektmanagement
     - Konzeption und Algorithmenentwicklung
     - Präsentation der Software auf internationalen Tagungen
     - Deployment, Entwicklung von CI/CD Pipelines
@@ -310,7 +310,7 @@
     Auf diese Weise konnten unterschiedliche Zelltypen für benutzerdefinierte Gewebe-Regionen
     automatisiert ausgezählt werden.
   id: 2016_histology
-  year: before 2020
+  year: vor 2020
   taks:
     - Beratung der beteiligten Neurowissenschaftler
     - Anleitung der Wissenschaftler zum Sammeln von Trainingsdaten
@@ -370,7 +370,7 @@
     - Docker
     - SLURM
   id: multiprocessing_pipeline_2019
-  year: before 2020
+  year: vor 2020
   tags:
     - dev
     - imageprocessing

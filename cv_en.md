@@ -12,19 +12,20 @@ lang: en
 ```
 {% for content in site.data.hero %}
 {% if content.lang == page.lang %}
-<img src="{{ content.banner_image_source }}" alt="drawing"  width="350"/>
+<img src="assets/images/portraits/portrait_1.jpg" alt="drawing"  width="350"/>
 # {{content.name}} 
 ## {{content.profession}}
 
 {% capture my_include %}{% include {{content.description_filename}} %}{% endcapture %}
 
 {{ my_include | markdownify }}
-
+----
 
 ## Experience
 
 {% capture my_include %}{% include experience_text_en.md %}{% endcapture %}
 {{ my_include | markdownify }}
+----
 
 ## Employments
 
@@ -36,6 +37,7 @@ lang: en
 
 {% endif %}
 {% endfor %}
+----
 
 ### Education
 
@@ -51,6 +53,7 @@ lang: en
 
 {% endif %}
 {% endfor %}
+----
 
 ### Certificates
 
@@ -61,46 +64,42 @@ lang: en
    
    More info: [{{ certificate.website_url }}]({{ certificate.website_url }})
 {% endfor %}
-
+----
 
 
 ## Projects
+
 
 {% for project in site.data.projects %}
 {% if project.lang == page.lang %}
 
 ### {{ project.title }}
 
-Time: {{ project.year }}
+**Time:** {{ project.year }}
 {% if project.institute %}
 
-Client: {{ project.institute}}
+**Client:** {{ project.institute}}
 {% endif %}
 
-*{{ project.description }}*
+***{{ project.description }}***
 
 {{ project.description_long }}
 
 {% if project.tasks %}
-Taks:
+**Tasks:**
 {% for task in project.tasks %}
   * {{ task }}  
 {% endfor %}
 {% endif %}
 
 {% if project.tools %}
-Tools:
-{% for tool in project.tools %}
-  * {{ tool }}  
-{% endfor %}
+**Tools:** {% for tool in project.tools %} {{ tool }}, {% endfor %}
 {% endif %}
-
-  
-
-
+----
 {% endif %}
 
 {% endfor %}
+
 
 
 

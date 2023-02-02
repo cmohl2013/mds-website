@@ -1,3 +1,11 @@
+{% if project.lang == "en" %}
+{% assign task_label = "Tasks" %}
+{% assign tool_label = "Tools" %}
+{% else %}
+{% assign task_label = "Aufgaben" %}
+{% assign tool_label = "Werkzeuge" %}
+{% endif %}
+
 <li class="list-group-item list-group-item-action">
     <div class="card" id="{{ project.id}}">
         <div class="card-body">
@@ -8,10 +16,10 @@
             <p class="card-text">{{project.description_long | markdownify}}</p>
             {% endif  %}
             {% if project.tasks %}
-            <p class="card-text"><h6>Tasks:</h6><ul>{% for task in project.tasks %}<li>{{task}}</li>{% endfor %}</ul></p>
+            <p class="card-text"><h6>{{ task_label }}:</h6><ul>{% for task in project.tasks %}<li>{{task}}</li>{% endfor %}</ul></p>
             {% endif  %}
             {% if project.tools %}
-            <p class="card-text"><h6>Tools:</h6>{% for tool in project.tools %}<span class="badge rounded-pill text-primary">{{tool}}</span>{% endfor %}</p>
+            <p class="card-text"><h6>{{ tool_label }}:</h6>{% for tool in project.tools %}<span class="badge rounded-pill text-primary">{{tool}}</span>{% endfor %}</p>
             {% endif %}
             {% if project.link %}
             <a href="{{ project.link.href }}" class="card-link">{{ project.link.text }}</a>

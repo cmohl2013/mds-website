@@ -33,12 +33,12 @@ jobs:
     - name: render german cv download pdf
       uses: docker://pandoc/latex:2.9
       with:
-        args: -V color-links=True --output ./downloads/cv_moehl_de.pdf ./_site/cv_de.html
+        args: -V color-links=True -V margin-left=1.9cm -V margin-right=1.9cm -V margin-bottom=1.9cm -V margin-top=1.9cm --output ./downloads/cv_moehl_de.pdf ./_site/cv_de.html
 
     - name: render international cv download pdf
       uses: docker://pandoc/latex:2.9
       with:
-        args: -V color-links=True --output ./downloads/cv_moehl_en.pdf ./_site/cv_en.html    
+        args: -V color-links=True -V margin-left=1.9cm -V margin-right=1.9cm -V margin-bottom=1.9cm -V margin-top=1.9cm --output ./downloads/cv_moehl_en.pdf ./_site/cv_en.html    
   
     - name: build website artifacts 2nd time to include downloads
       uses:  jerryjvl/jekyll-build-action@v1
