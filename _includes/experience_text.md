@@ -1,7 +1,6 @@
 
 
-Ich verfüge über **mehr als 10 Jahre Praxiserfahrung als Data Scientist, KI Experte,
-Bildanalyse-Spezialist und Python Entwickler**. Ich setze KI Methoden pragmatisch
+Ich verfüge über **mehr als 10 Jahre Praxiserfahrung als Data Scientist, KI Experte, Bildanalyse-Spezialist und Python Entwickler**. Ich setze KI Methoden pragmatisch
 ein und kann deren Nutzen kritisch einordnen.
 
 Als langjähriger **Leiter einer Datenanalyse Service Abteilung im wissenschaftlichen
@@ -21,4 +20,4 @@ Unter anderem habe ich an folgenden Anwendungsfällen gearbeitet:
 Forschung)
 * Data Science Consulting und und Data Engineering für die Entwicklung neuer
 Therapien (Wirkstoffforschung, Pharma)
-* Backend und Frontend Endwicklung von **Web basierten BI Dashboards** (Investment Banking).
+* Backend und Frontend Entwicklung von **Web basierten BI Dashboards** (Investment Banking).

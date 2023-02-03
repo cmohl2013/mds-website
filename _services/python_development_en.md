@@ -1,13 +1,13 @@
 ---
 layout: service
-title: Softwareentwicklung
+title: Software Engineering
 icon: fa fa-code
 img_src: '/assets/images/portfolio/portfolio-image.jpg'
-description: Entwicklung von Applikationen auf Basis von Python
+description: Development for Python-Based Projects
 service_id: 2
 home: 1
 service_tag: dev
-lang: de
+lang: en
 ---
 
 

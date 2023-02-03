@@ -1,6 +1,6 @@
 ---
 layout: service
-title: Künstliche Intelligenz & Machine Learning
+title: Künstliche Intelligenz & Machine-Learning
 icon: fa fa-brain
 img_src: '/assets/images/portfolio/portfolio-image.jpg'
 description: 'Prototyping, Optimierung and Deployment von ML Modellen'

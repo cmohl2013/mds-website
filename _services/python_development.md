@@ -1,16 +1,16 @@
 ---
 layout: service
-title: Software Engineering
+title: Softwareentwicklung
 icon: fa fa-code
 img_src: '/assets/images/portfolio/portfolio-image.jpg'
-description: Development for Python-Based Projects
+description: Auf Basis von Python
 service_id: 2
 home: 1
 service_tag: dev
-lang: en
+lang: de
 ---
 
 
-* I have +10 years of experience in **Python** development
-* I develop robust reproducible code using **version control** and **test driven development**.
-* Code is properly documented and formatted.
+* Ich habe über 10 Jahre Erfahrung als **Python** Entwickler
+* Ich entwickele robusten Code mit Hilfe von **Versionskontrollsystemen** und **Test Driven Development**.
+* Mein Code ist dokumentiert und entsprechend der Richtlinien formatiert.
