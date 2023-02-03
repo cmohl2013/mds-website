@@ -101,5 +101,4 @@ lang: en
 {% endfor %}
 
 
-
-
+Created: {{ "now" | date: "%Y-%m-%d" }}

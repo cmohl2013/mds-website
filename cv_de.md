@@ -104,4 +104,6 @@ lang: de
 {% endfor %}
 
 
+Erstellt am: {{ "now" | date: "%Y-%m-%d" }}
+
 
