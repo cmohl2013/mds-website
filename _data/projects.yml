@@ -193,7 +193,7 @@
     - Tkinter
     - Scikit-Learn
     - git
-  year: before 2020
+  year: 2019
   id: 2017_sensordata
   type: Project
   tags: 
@@ -217,7 +217,7 @@
     - Tkinter
     - Scikit-Learn
     - git  
-  year: vor 2020
+  year: 2019
   id: 2017_sensordata
   type: Project
   tags: 
@@ -239,7 +239,7 @@
     - TensorFlow
     - Travis-CI
     - GitHub
-  year: before 2020
+  year: 2016
   id: 2015_yapic
   link:
     href: https://yapic.github.io/yapic/
@@ -265,7 +265,7 @@
     - TensorFlow
     - Travis-CI
     - GitHub
-  year: vor 2020
+  year: 2016
   id: 2015_yapic
   link:
     href: https://yapic.github.io/yapic/
@@ -284,7 +284,7 @@
   description: Automated characterization of tissue samples using deep learning
   description_long : As part of a medical research project, tissue samples were photographed with an automated microscope. Based on Python and Tensorflow, software was developed to identify and classify specific cell types in the tissue. In this way, different cell types could be counted automatically for user-defined tissue regions.
   id: 2016_histology
-  year: before 2020
+  year: 2017
   taks:
     - Consultation of the neuroscientists involved
     - Guidance of the scientists on the collection of training data
@@ -310,7 +310,7 @@
     Auf diese Weise konnten unterschiedliche Zelltypen für benutzerdefinierte Gewebe-Regionen
     automatisiert ausgezählt werden.
   id: 2016_histology
-  year: vor 2020
+  year: 2017
   taks:
     - Beratung der beteiligten Neurowissenschaftler
     - Anleitung der Wissenschaftler zum Sammeln von Trainingsdaten
@@ -346,7 +346,7 @@
     - Docker
     - SLURM
   id: multiprocessing_pipeline_2019
-  year: before 2020
+  year: 2018
   tags:
     - dev
     - imageprocessing
@@ -370,7 +370,7 @@
     - Docker
     - SLURM
   id: multiprocessing_pipeline_2019
-  year: vor 2020
+  year: 2018
   tags:
     - dev
     - imageprocessing
