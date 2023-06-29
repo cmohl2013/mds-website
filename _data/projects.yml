@@ -1,4 +1,61 @@
- 
+- title: Python Entwickler / Data Engineer
+  description: Frontend und Backend Entwicklung einer Web Applikation für Portfolio Management.
+  institute: DekaBank
+  tools: 
+    - Python
+    - Plotly Dash
+    - Mypy
+    - Sphinx 
+    - Gitlab
+    - Pandas
+    - Mssql
+    - Pytest
+    - Javascript
+  tasks:
+    - Frontend und Backend Entwicklung mit Python und Javascript
+    - Design und Implementierung einer klassenbasierten Softwarearchitektur im Backend
+    - Design des Datemodells (hybrider Ansatz, relational und Json basiert), Implementierung von Test-, Staging- and Produktionsdatenbank
+    - Dokumentation
+    - Setup einer Continuous Integration Pipeline (Paketinstallation, Unit Tests, Pep8 checks, automatisierter Build der Dokumnetation)
+    
+  tags: 
+    - dev
+    - dataengineer
+  year: 2023
+  type: Project
+  id: 2023_deka
+  lang: en 
+
+- title: Python Developer / Data Engineer
+  description: Frontend and backend development of a web application for portfolio management.
+  institute: DekaBank
+  tools: 
+    - Python
+    - Plotly Dash
+    - Mypy
+    - Sphinx 
+    - Gitlab
+    - Pandas
+    - Mssql
+    - Pytest
+    - Javascript
+  tasks:
+    - Frontend and Backend development with Python and Javascript
+    - Design of the class-based software architecture in the backend
+    - Data model design (combination of relational and json based model), implementation of test, staging and production database
+    - Documentation
+    - Setup of continuous integration pipeline (package installation, unit testing, pep8 checks, automated builds of documentation)
+    
+  tags: 
+    - dev
+    - dataengineer
+  year: 2023
+  type: Project
+  id: 2023_deka
+  lang: en   
+
+
+
 
 - title: Python Developer / Data Engineer
   description: Frontend and backend development of a business intelligence web application.
