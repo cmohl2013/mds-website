@@ -17,6 +17,7 @@
     - Design des Datemodells (hybrider Ansatz, relational und Json basiert), Implementierung von Test-, Staging- and Produktionsdatenbank
     - Dokumentation
     - Setup einer Continuous Integration Pipeline (Paketinstallation, Unit Tests, Pep8 checks, automatisierter Build der Dokumnetation)
+    - Arbeit innerhalb eines interdisziplinären Teams aus Finanzexperten, Softwareentwicklern und Analysten
     
   tags: 
     - dev
@@ -45,6 +46,7 @@
     - Data model design (combination of relational and json based model), implementation of test, staging and production database
     - Documentation
     - Setup of continuous integration pipeline (package installation, unit testing, pep8 checks, automated builds of documentation)
+    - Work within an interdisciplinary team of financial experts, software developers and analysts
     
   tags: 
     - dev
@@ -76,6 +78,7 @@
     - Development of data buffering solutions for fast data provision of fragmented data sources.
     - Implementation of a business intelligence web app
     - Refactoring prototype scripts to production code (unit tests, continuous integration…)   
+    - Work within an interdisciplinary team of financial experts, software developers and analysts
   tags: 
     - dev
     - dataengineer
@@ -103,6 +106,7 @@
     - Entwicklung von Lösungen zum Zwischenspeichern von Daten zur schnellen Bereitstellung einer fragmentierten Datenbasis.
     - Entwicklung einer Business Intelligence Web App
     - Weiterentwicklung und Refaktorierung von Prototyp Skripten zu Produktionscode (Unit Tests, Continuous Integration...) 
+    - Arbeit innerhalb eines interdisziplinären Teams aus Finanzexperten, Softwareentwicklern und Analysten
   tags: 
     - dev
     - dataengineer
@@ -178,6 +182,7 @@
     An automation plant produces sensor data of various types, which are fed into mathematical prediction models
     together with various metadata. Measurement data and metadata are to be stored centrally in an SQL database.
     The project requires close interaction with employees who operate the automation system and evaluate the data.
+    The interdisciplinary team includes biologists, chemists, technicians, data analysts and software developers.
   year: 2020
   tasks:
     - Project management
@@ -210,7 +215,7 @@
     Metadaten in mathematische Vorhersagemodelle eingespeist werden. Messdaten und
     Metadaten sollen zentral in einer SQL Datenbank gespeichert werden.
     Das Projekt erfordert engen Austausch mit Mitarbeitern die die Automationsanlage betreiben
-    und die Daten auswerten.
+    und die Daten auswerten. Das interdiszipläre Team besteht aus Biologen, Chemikern, Technikern und Datenanalysten und Softwareentwicklern.
   year: 2020
   tasks:
     - Projektmanagement
@@ -433,6 +438,48 @@
     - imageprocessing
   lang: de   
 
-  
+- title: Data Scientist Drug Discovery
+  description: Drug Screening Analysis including Feature Engineering, Clustering and Ranking Analysis
+  tasks:
+    - Setup and execution of image analysis pipeline for automated object detection of image based drug screening data.
+    - Feature processing and selection
+    - Clustering analyses to identify drug candidate groups
+    - Development of ranking algorithms to identify drugs with high potential and low toxicity
+  tools:
+    - Python
+    - CellProfiler
+    - Pandas
+    - Numpy
+    - Scipy
+    - ScikitLearn
+  year: 2014
+  tags:
+    - datascientist
+    - imageprocessing
+
+  lang: en
+
+- title: Data Scientist Wirkstoffforschung
+  description: Medikamenten-Screening-Analyse einschließlich Feature Engineering, Clustering und Ranking-Analyse
+  tasks:
+    - Aufbau und Ausführung einer Bildanalyse-Pipeline zur automatischen Objekterkennung von bildbasierten Screening-Daten.
+    - Verarbeitung und Auswahl von Features
+    - Clustering-Analysen zur Identifizierung von Wirkstoffkandidatengruppen
+    - Entwicklung von Ranking-Algorithmen zur Identifizierung von Medikamenten mit hohem Potenzial und geringer Toxizität
+  tools:
+    - Python
+    - CellProfiler
+    - Pandas
+    - Numpy
+    - Scipy
+    - ScikitLearn
+  year: 2014
+  tags:
+    - datascientist
+    - imageprocessing
+
+  lang: de
+
+    
 
   
