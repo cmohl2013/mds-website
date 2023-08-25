@@ -4,7 +4,7 @@
 
 #### Wissenschaftliche Artikel
 
-See my  **[ORCID profile](https://orcid.org/0000-0002-0829-5101)** for a full list of publications.
+Eine Liste meiner wissenschaftlichen Publikationen finden Sie auf meinem **[ORCID Profil](https://orcid.org/0000-0002-0829-5101)**.
 
 
 #### Vorträge (Auswahl)
