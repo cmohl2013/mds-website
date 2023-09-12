@@ -15,6 +15,7 @@
     - Keras
     - Dash
     - Plotly
+    - Spark
   icon: fa-chart-bar
 
 - title_en: Image Analysis

@@ -76,6 +76,7 @@
   tasks:
     - Frontend and Backend development
     - Development of data buffering solutions for fast data provision of fragmented data sources.
+    - Handling and effective provisioning of big data tables.
     - Implementation of a business intelligence web app
     - Refactoring prototype scripts to production code (unit tests, continuous integration…)   
     - Work within an interdisciplinary team of financial experts, software developers and analysts
@@ -104,6 +105,7 @@
   tasks:
     - Frontend und Backend Entwicklung
     - Entwicklung von Lösungen zum Zwischenspeichern von Daten zur schnellen Bereitstellung einer fragmentierten Datenbasis.
+    - Handling und effektive Bereitstellung von Tabellen im Big Data Umfeld.
     - Entwicklung einer Business Intelligence Web App
     - Weiterentwicklung und Refaktorierung von Prototyp Skripten zu Produktionscode (Unit Tests, Continuous Integration...) 
     - Arbeit innerhalb eines interdisziplinären Teams aus Finanzexperten, Softwareentwicklern und Analysten
@@ -402,6 +404,7 @@
     - Definition of the specifications in collaboration with the domain experts
     - Planning and acquisition of necessary hardware
     - Conception and implementation
+    - Big Data handling
   tools:
     - Python
     - CellProfiler
@@ -426,6 +429,7 @@
     - Definition der Spezifikationen in Zusammenarbeit mit den Domänen Experten
     - Planung und Anschaffung erforderlicher Hardware
     - Konzeption und Implementierung
+    - Big Data handling
   tools:
     - Python
     - CellProfiler
@@ -445,6 +449,7 @@
     - Feature processing and selection
     - Clustering analyses to identify drug candidate groups
     - Development of ranking algorithms to identify drugs with high potential and low toxicity
+    - Big Data processing
   tools:
     - Python
     - CellProfiler
@@ -452,6 +457,7 @@
     - Numpy
     - Scipy
     - ScikitLearn
+    - Apache Spark
   year: 2014
   tags:
     - datascientist
@@ -466,6 +472,7 @@
     - Verarbeitung und Auswahl von Features
     - Clustering-Analysen zur Identifizierung von Wirkstoffkandidatengruppen
     - Entwicklung von Ranking-Algorithmen zur Identifizierung von Medikamenten mit hohem Potenzial und geringer Toxizität
+    - Big Data processing
   tools:
     - Python
     - CellProfiler
@@ -473,6 +480,7 @@
     - Numpy
     - Scipy
     - ScikitLearn
+    - Apache Spark
   year: 2014
   tags:
     - datascientist

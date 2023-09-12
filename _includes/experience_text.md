@@ -9,7 +9,7 @@ und die Entwicklung neuer Technologien aktiv mitgestaltet.
 
 Als **Data Scientist im Bereich Großhandel und Vertrieb** habe ich die
 Anforderungen von mittelständischen Unternehmen kennengelernt und kann maßgeschneiderte
-**Lösungen im Bereich KI und Data Engineering** mit Augenmaß für den jeweiligen
+**Lösungen im Bereich KI, Big Data und Data Engineering** mit Augenmaß für den jeweiligen
 Budgetrahmen entwickeln.
 
 Unter anderem habe ich an folgenden Anwendungsfällen gearbeitet:
@@ -18,6 +18,5 @@ Unter anderem habe ich an folgenden Anwendungsfällen gearbeitet:
 * Verarbeitung und Analyse von Sensordaten (Biotechnologie)
 * Automatisierte Objekterkennung in medizinischen Bilddaten (Biomedizinische
 Forschung)
-* Data Science Consulting und und Data Engineering für die Entwicklung neuer
-Therapien (Wirkstoffforschung, Pharma)
+* Data Science Consulting, Data Engineering im **Big Data** Umfeld für die Entwicklung neuer Therapien (Wirkstoffforschung, Pharma)
 * Backend und Frontend Entwicklung von **Web basierten BI Dashboards** (Investment Banking).
