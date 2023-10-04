@@ -76,7 +76,7 @@ lang: de
 
 ### {{ project.title }}
 
-**Zeitraum:** {{ project.year }}
+**Zeitraum:** {{ project.from_date }} bis {{ project.to_date }}
 {% if project.institute %}
 
 **Auftraggeber:** {{ project.institute}}
