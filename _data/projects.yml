@@ -25,6 +25,8 @@
     - dev
     - dataengineer
   year: 2023
+  from_date: 03/2023
+  to_date: 07/2023
   type: Project
   id: 2023_deka
   lang: de
@@ -55,6 +57,8 @@
     - dev
     - dataengineer
   year: 2023
+  from_date: 03/2023
+  to_date: 07/2023
   type: Project
   id: 2023_deka
   lang: en   
@@ -89,6 +93,8 @@
     - dev
     - dataengineer
   year: 2022
+  from_date: 09/2022
+  to_date: 12/2022
   type: Project
   id: 2021_deka
   lang: en
@@ -120,6 +126,8 @@
     - dev
     - dataengineer
   year: 2022
+  from_date: 09/2022
+  to_date: 12/2022
   type: Project
   id: 2021_deka
   lang: de
@@ -133,6 +141,8 @@
     print media in magazine distribution, prototyping, implementation and deployment
     of the productive system.
   year: 2021
+  from_date: 02/2021
+  to_date: 06/2022
   tasks:
     - Conception of a deep learning model for the prediction of sales figures
     - Development of a data model and ETL processes for processing raw data
@@ -162,6 +172,8 @@
   description_long: >
     Design und Implementierung eines KI basierten Modells zur Vorhersage von Verkaufszahlen und Produktprovisionierung.
   year: 2021
+  from_date: 02/2021
+  to_date: 06/2022
   tasks:
     - Konzeption eines Deep Learning Modells zur Vorhersage von Verkaufszahlen
     - Entwicklung von Datenmodellen und ETL Prozessen zur Vorverarbeitung der Rohdaten
@@ -195,6 +207,8 @@
     The project requires close interaction with employees who operate the automation system and evaluate the data.
     The interdisciplinary team includes biologists, chemists, technicians, data analysts and software developers.
   year: 2020
+  from_date: 04/2020
+  to_date: 12/2020
   tasks:
     - Project management
     - Development of the data model in numerous workshops.
@@ -228,6 +242,8 @@
     Das Projekt erfordert engen Austausch mit Mitarbeitern die die Automationsanlage betreiben
     und die Daten auswerten. Das interdiszipläre Team besteht aus Biologen, Chemikern, Technikern und Datenanalysten und Softwareentwicklern.
   year: 2020
+  from_date: 04/2020
+  to_date: 12/2020
   tasks:
     - Projektmanagement
     - Entwicklung des Datenmodells in zahlreichen Workshops.
@@ -267,6 +283,8 @@
     - Scikit-Learn
     - git
   year: 2019
+  from_date: 09/2019
+  to_date: 03/2020
   id: 2017_sensordata
   type: Project
   tags: 
@@ -291,6 +309,8 @@
     - Scikit-Learn
     - git  
   year: 2019
+  from_date: 09/2019
+  to_date: 03/2020
   id: 2017_sensordata
   type: Project
   tags: 
@@ -313,6 +333,8 @@
     - Travis-CI
     - GitHub
   year: 2016
+  from_date: 03/2016
+  to_date: 12/2020
   id: 2015_yapic
   link:
     href: https://yapic.github.io/yapic/
@@ -339,6 +361,8 @@
     - Travis-CI
     - GitHub
   year: 2016
+  from_date: 03/2016
+  to_date: 12/2020
   id: 2015_yapic
   link:
     href: https://yapic.github.io/yapic/
@@ -358,6 +382,8 @@
   description_long : As part of a medical research project, tissue samples were photographed with an automated microscope. Based on Python and Tensorflow, software was developed to identify and classify specific cell types in the tissue. In this way, different cell types could be counted automatically for user-defined tissue regions.
   id: 2016_histology
   year: 2017
+  from_date: 02/2017
+  to_date: 07/2017
   taks:
     - Consultation of the neuroscientists involved
     - Guidance of the scientists on the collection of training data
@@ -384,6 +410,8 @@
     automatisiert ausgezählt werden.
   id: 2016_histology
   year: 2017
+  from_date: 02/2017
+  to_date: 07/2017
   taks:
     - Beratung der beteiligten Neurowissenschaftler
     - Anleitung der Wissenschaftler zum Sammeln von Trainingsdaten
@@ -421,6 +449,8 @@
     - SLURM
   id: multiprocessing_pipeline_2019
   year: 2018
+  from_date: 10/2018
+  to_date: 06/2019
   tags:
     - dev
     - imageprocessing
@@ -446,6 +476,8 @@
     - SLURM
   id: multiprocessing_pipeline_2019
   year: 2018
+  from_date: 10/2018
+  to_date: 06/2019
   tags:
     - dev
     - imageprocessing
@@ -468,6 +500,8 @@
     - ScikitLearn
     - Apache Spark
   year: 2014
+  from_date: 01/2014
+  to_date: 03/2015
   tags:
     - datascientist
     - imageprocessing
@@ -491,6 +525,8 @@
     - ScikitLearn
     - Apache Spark
   year: 2014
+  from_date: 01/2014
+  to_date: 03/2015
   tags:
     - datascientist
     - imageprocessing

@@ -75,7 +75,7 @@ lang: en
 
 ### {{ project.title }}
 
-**Time:** {{ project.year }}
+**Time:** {{ project.from_date }} to {{ project.to_date }}
 {% if project.institute %}
 
 **Client:** {{ project.institute}}
