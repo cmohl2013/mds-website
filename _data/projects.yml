@@ -1,3 +1,171 @@
+- title: Python Entwickler, Frontend und Backend
+  description: Entwicklung eines Exporters für OMERO, eine Datenbank für biomedizinische Bilddaten
+  institute: Universität Köln (CECAD Imaging Facility)
+  tools: 
+    - Python
+    - OMERO
+    - Postgres
+    - Django
+    - Git
+    - Github Actions
+    - Docker
+    - Pytest
+    
+  tasks:
+    - Erweiterung des Open Source Kommandozeilentools omero-cli-transfer, um Forschungsdaten aus der OMERO Datenbank in ARC Repositories zu übertragen.
+    - Entwicklung einer Mapping-Spezifikation für die Übertragung von OMERO-Projekten in ARC-Repositorien.
+    - Erweiterung des Web Frontends von OMERO, um ARC Metadaten anzuzeigen und Datenexport zu steuern.
+    - Dokumentation
+  tags: 
+    - dev
+    - dataengineer
+  year: 2023
+  from_date: 11/2023
+  to_date: 12/2023
+  type: Project
+  id: 2023_omero
+  lang: de
+
+
+- title: Python Developer, Frontend and Backend
+  description: Development of an exporter for OMERO, a database for biomedical image data
+  institute: University Cologne (CECAD Imaging Facility)
+  tools: 
+    - Python
+    - OMERO
+    - Postgres
+    - Django
+    - Git
+    - Github Actions
+    - Docker
+    - Pytest
+    
+  tasks:
+    - Extension of the open source command line tool omero-cli-transfer to transfer research data from the OMERO database to ARC repositories.
+    - Development of a mapping specification for transferring OMERO projects to ARC repositories.
+    - Extension of the OMERO web frontend to display ARC metadata and control data export.
+    - Documentation
+  tags: 
+    - dev
+    - dataengineer
+  year: 2023
+  from_date: 11/2023
+  to_date: 12/2023
+  type: Project
+  id: 2023_omero
+  lang: de
+
+
+
+- title: Python Entwickler, ML Engineer, KI Experte (Bildanalyse, Computer Vision)
+  description: Automatisierte Detektion von Nervenzellen in Mikroskopischen Bildern mit künstlicher Intelligenz.
+  institute: DZNE
+  tools: 
+    - Python
+    - Tensorflow
+    - Scikit-Image
+    - aicsimageio
+    - cellpose
+    
+  tasks:
+    - Entwicklung eines Kommandozeilentools zur Deep Learning basierten Erkennung von Zellobjekten in großen Bilddateien (>10GB)
+    - Entwicklung eines Workflows für die Nutzer zum Training eines individuellen Deep Learning Modells und zur Qualitätskontrolle
+    - Beratung zur Optimierung der Datenmessung (Konfokale Mikroskopie).
+    - Dokumentation
+    
+  tags: 
+    - datascientist
+  year: 2023
+  from_date: 09/2023
+  to_date: 10/2023
+  type: Project
+  id: 2023_cell_counting
+  lang: de
+
+
+  - title: Python developer, ML Engineer, AI Expert (image analysis, computer vision)
+  description: Automated detection of neurons in microscopic images with artificial intelligence.
+  tools: 
+    - Python
+    - Tensorflow
+    - Scikit-Image
+    - aicsimageio
+    - cellpose
+    
+  tasks:
+    - Development of a command line tool for Deep Learning based recognition of cell objects in large image files (>10GB)
+    - Development of a workflow for users to train an individual Deep Learning model and for quality control purposes
+    - Consulting for optimization of data measurement (confocal microscopy).
+    - Documentation
+    
+  tags: 
+    - datascientist
+  year: 2023
+  from_date: 09/2023
+  to_date: 10/2023
+  type: Project
+  id: 2023_cell_counting
+  lang: en
+
+
+
+
+- title: Data Scientist
+  description: Feature Ranking Analyse für eine industrielle Fertigungsanlage.
+  institute: Metallverarbeitende Industrie
+  tools: 
+    - Python
+    - Pandas
+    - Scikit-Learn
+    - Machine Learning
+    
+  tasks:
+    - Datenimport
+    - Datenbereinigung
+    - Explorative Datenanalyse
+    - Featureanalyse
+    - Training von überwachten Machine Learning Modellen
+    - Feature Ranking Analyse mit SHAP
+    - Dokumentation
+    
+  tags: 
+    - datascientist
+  year: 2023
+  from_date: 09/2023
+  to_date: 10/2023
+  type: Project
+  id: 2023_feature_ranking
+  lang: de
+
+- title: Data Scientist
+  description: Feature ranking analysis for an industrial manufacturing facility.
+  institute: Industry
+  tools: 
+    - Python
+    - Pandas
+    - Scikit-Learn
+    - Machine Learning
+    
+  tasks:
+    - Data import
+    - Data cleansing
+    - Explorative data analysis
+    - Feature analysis
+    - Training of supervised machine learning models
+    - Feature ranking analysis with SHAP 
+    - Documentation
+    
+  tags: 
+    - datascientist
+  year: 2023
+  from_date: 09/2023
+  to_date: 10/2023
+  type: Project
+  id: 2023_feature_ranking
+  lang: en
+
+
+
 - title: Python Entwickler / Data Engineer
   description: Frontend und Backend Entwicklung einer Web Applikation für Portfolio Management.
   institute: DekaBank
