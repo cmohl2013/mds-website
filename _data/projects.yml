@@ -9,8 +9,7 @@
     - Git
     - Github Actions
     - Docker
-    - Pytest
-    
+    - Pytest 
   tasks:
     - Erweiterung des Open Source Kommandozeilentools omero-cli-transfer, um Forschungsdaten aus der OMERO Datenbank in ARC Repositories zu übertragen.
     - Entwicklung einer Mapping-Spezifikation für die Übertragung von OMERO-Projekten in ARC-Repositorien.
@@ -39,7 +38,6 @@
     - Github Actions
     - Docker
     - Pytest
-    
   tasks:
     - Extension of the open source command line tool omero-cli-transfer to transfer research data from the OMERO database to ARC repositories.
     - Development of a mapping specification for transferring OMERO projects to ARC repositories.
@@ -53,7 +51,7 @@
   to_date: 12/2023
   type: Project
   id: 2023_omero
-  lang: de
+  lang: en
 
 
 
@@ -71,8 +69,7 @@
     - Entwicklung eines Kommandozeilentools zur Deep Learning basierten Erkennung von Zellobjekten in großen Bilddateien (>10GB)
     - Entwicklung eines Workflows für die Nutzer zum Training eines individuellen Deep Learning Modells und zur Qualitätskontrolle
     - Beratung zur Optimierung der Datenmessung (Konfokale Mikroskopie).
-    - Dokumentation
-    
+    - Dokumentation 
   tags: 
     - datascientist
   year: 2023
@@ -83,21 +80,19 @@
   lang: de
 
 
-  - title: Python developer, ML Engineer, AI Expert (image analysis, computer vision)
+- title: Python developer, ML Engineer, AI Expert (image analysis, computer vision)
   description: Automated detection of neurons in microscopic images with artificial intelligence.
   tools: 
     - Python
     - Tensorflow
     - Scikit-Image
     - aicsimageio
-    - cellpose
-    
+    - cellpose 
   tasks:
     - Development of a command line tool for Deep Learning based recognition of cell objects in large image files (>10GB)
     - Development of a workflow for users to train an individual Deep Learning model and for quality control purposes
     - Consulting for optimization of data measurement (confocal microscopy).
-    - Documentation
-    
+    - Documentation 
   tags: 
     - datascientist
   year: 2023
@@ -117,8 +112,7 @@
     - Python
     - Pandas
     - Scikit-Learn
-    - Machine Learning
-    
+    - Machine Learning  
   tasks:
     - Datenimport
     - Datenbereinigung
@@ -126,8 +120,7 @@
     - Featureanalyse
     - Training von überwachten Machine Learning Modellen
     - Feature Ranking Analyse mit SHAP
-    - Dokumentation
-    
+    - Dokumentation 
   tags: 
     - datascientist
   year: 2023
@@ -137,6 +130,7 @@
   id: 2023_feature_ranking
   lang: de
 
+
 - title: Data Scientist
   description: Feature ranking analysis for an industrial manufacturing facility.
   institute: Industry
@@ -144,8 +138,7 @@
     - Python
     - Pandas
     - Scikit-Learn
-    - Machine Learning
-    
+    - Machine Learning    
   tasks:
     - Data import
     - Data cleansing
@@ -154,7 +147,6 @@
     - Training of supervised machine learning models
     - Feature ranking analysis with SHAP 
     - Documentation
-    
   tags: 
     - datascientist
   year: 2023
@@ -180,7 +172,6 @@
     - Mssql
     - Pytest
     - Javascript
-    
   tasks:
     - Frontend und Backend Entwicklung mit Python und Javascript
     - Design und Implementierung einer klassenbasierten Softwarearchitektur im Backend
