@@ -32,6 +32,13 @@
 
 
 # Work experience
+
+- title: Data Scientist Pricing
+  institute: Questax (for Yello GmbH)
+  year: "since 2024"
+  type: Experience
+  lang: en
+
 - title: Freelance Data Scientist
   institute: Möhl Data Services
   year: "since 2022"
@@ -68,6 +75,13 @@
 
 
 # Work experience DE
+
+- title: Data Scientist Pricing
+  institute: Questax (in Arbeitnehmerüberlassung für Yello GmbH)
+  year: "seit 2024"
+  type: Experience
+  lang: en
+
 - title: Selbständiger IT Berater
   institute: Möhl Data Services
   year: "seit 2022"
@@ -100,12 +114,4 @@
   institute: Forschungszentrum Jülich
   year: 2006-2009
   type: Experience
-  lang: de  
-
-
-
-
-
-
-
-
+  lang: de
